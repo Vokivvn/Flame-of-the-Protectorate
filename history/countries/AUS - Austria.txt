@@ -44,15 +44,14 @@ add_opinion_modifier = { modifier = generic_historical_ties target = ALB }
 ALB = { add_opinion_modifier = { modifier = generic_historical_ties target = AUS } }
 
 set_popularities = {
-    cromwellianism = 1
-    marxism = 2
-    liberalism = 7
-    republicanism = 12
-    parliamentarianism = 25
-    administrationism = 30
-    absolutism = 9
-    despotism = 11
-    nationalism = 3
+    revisionism = 0
+    socialism = 0
+    progressivism = 0
+    liberalism = 0
+    conservatism = 40
+    republicanism = 0
+    authoritarianism = 36
+    ultranationalism = 24
 }
 
 set_cosmetic_tag = AUS_ENG
@@ -194,16 +193,6 @@ if = {
 }
 
 create_country_leader = {
-	name = "Arthur Seyss-Inquart"
-	#desc =
-	picture = "Portrait_AUS_Arthur_Seyss_Inquart.dds"
-	expire = "1979.1.1"
-	ideology = nationalism_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
 	name = "Rudolf VI"
 	desc = Austria_Rudolf_VI
 	picture = "Portrait_AUS_Rudolf_VI.dds"
@@ -279,6 +268,16 @@ create_country_leader = {
 	picture = "Portrait_AUS_Karl_Renner.dds"
 	expire = "1999.12.12"
 	ideology = cromwellianism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Engelbert Dollfuss"
+	#desc =
+	picture = "Portrait_AUS_Engelbert_Dollfuss.dds"
+	expire = "1979.1.1"
+	ideology = nationalism_subtype
 	traits = {
 	}
 }

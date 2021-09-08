@@ -151,26 +151,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Maurice Thorez"
-	#desc = 
-	picture = "Portrait_BRG_Alexander_Cambridge.dds"
-	expire = "1999.12.12"
-	ideology = marxism_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Maurice Thorez"
-	#desc = 
-	picture = "Portrait_BRG_Alexander_Cambridge.dds"
-	expire = "1999.12.12"
-	ideology = cromwellianism_subtype
-	traits = {
-	}
-}
-
 set_variable = {
 	var = BRG_Flanders_Loyalty
 	value = 50

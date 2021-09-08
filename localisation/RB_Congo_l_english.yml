@@ -28,10 +28,10 @@
  COG_nationalism_ADJ:0 "Congolese"
 
  ##Party Names##
- COG_cromwellianism_party:0 "CPU"
- COG_cromwellianism_party_long:0 "Communist Party of Congo"
- COG_marxism_party:0 "CNC-L"
- COG_marxism_party_long:0 "Congolese National Congress-Left"
+ COG_revisionism_party:0 "-"
+ COG_revisionism_party_long:0 "-"
+ COG_socialism_party:0 "-"
+ COG_socialism_party_long:0 "-"
  COG_liberalism_party:0 "CNC-C"
  COG_liberalism_party_long:0 "Congolese National Congress-Centre"
  COG_republicanism_party:0 "CNC-C"

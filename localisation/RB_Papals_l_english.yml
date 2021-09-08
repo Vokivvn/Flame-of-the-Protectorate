@@ -30,14 +30,22 @@
  PPL_nationalism_ADJ:0 "Papal"
 
  ##Party Names##
- PPL_administrationism_party:0 "FdR"
- PPL_administrationism_party_long:0 "Fazione di Riforma"
- PPL_absolutism_party:0 "PGh"
- PPL_absolutism_party_long:0 "Parte Ghibellina"
- PPL_despotism_party:0 "Curia Romana"
- PPL_despotism_party_long:0 "Curia Romana"
- PPL_nationalism_party:0 "FT"
- PPL_nationalism_party_long:0 "Fazione Tradizionale"
+ PPL_revisionism_party:0 "PCd'I"
+ PPL_revisionism_party_long:0 "Partito Comunista d'Italia" 
+ PPL_socialism_party:0 "PSI"
+ PPL_socialism_party_long:0 "Partito Socialista Italiano" 
+ PPL_progressivism_party:0 "FdR"
+ PPL_progressivism_party_long:0 "Fazione di Riforma"
+ PPL_liberalism_party:0 "FdR"
+ PPL_liberalism_party_long:0 "Fazione di Riforma"
+ PPL_conservatism_party:0 "FdR"
+ PPL_conservatism_party_long:0 "Fazione di Riforma"
+ PPL_republicanism_party:0 "PGh"
+ PPL_republicanism_party_long:0 "Parte Ghibellina"
+ PPL_authoritarianism_party:0 "Curia Romana"
+ PPL_authoritarianism_party_long:0 "Curia Romana"
+ PPL_ultranationalism_party:0 "FT"
+ PPL_ultranationalism_party_long:0 "Fazione Tradizionale"
 
  ##Cosemtic Tags##
 
