@@ -1,0 +1,25 @@
+
+state={
+	id=810
+	name="STATE_810"
+	manpower = 525000
+	
+	state_category = rural
+
+	history={
+		owner = PAT
+		victory_points = {
+			5169 2 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PAT
+		add_core_of = ARG
+		add_core_of = CHL
+	}
+
+	provinces={
+		5169 12954 12920 5121 8251 12984
+	}
+}

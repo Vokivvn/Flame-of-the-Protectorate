@@ -17,13 +17,7 @@ state={
 			infrastructure = 4
 		}
 		victory_points = {
-			3768 10 
-		}
-		victory_points = {
-			762 5
-		}
-		victory_points = {
-			6784 5
+			3768 1 
 		}
 		add_core_of = FRA
 	}

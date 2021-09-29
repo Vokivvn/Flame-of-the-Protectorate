@@ -1,10 +1,9 @@
-
 state={
 	id=405
 	name="STATE_405"
 
 	history={
-		owner = BKH
+		owner = SOV
 		victory_points = {
 			1459 3 
 		}
@@ -12,12 +11,21 @@ state={
 			infrastructure = 5
 			industrial_complex = 3
 			air_base = 1
+
 		}
-		add_core_of = BKH
+		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+
+			}
+
+		}
+
 	}
 
 	provinces={
-		756 1459 1573 1632 1919 4629 7639 7682 7775 10148 10187 10205 10488 10601 10671 11687 12239 12722 
+		1459 4629 7682 7775 10488 11687 1919 12430 10187 
 	}
 	manpower=6275820
 	buildings_max_level_factor=1.000

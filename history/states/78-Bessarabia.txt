@@ -7,8 +7,8 @@ state=
 	state_category = town
 	
 	history= {
-		add_core_of = MOL
-		owner = MOL
+		add_core_of = ROM
+		owner = ROM
 		victory_points = {
 			3707 1
 		}
@@ -17,7 +17,7 @@ state=
 			air_base = 2
 		}
 	}
-	provinces={ 
-		414 565 3407 3577 3707 3724 6600 9683 11686 11705 
-	}
+	provinces=
+	{
+414 565 3407 3577 3707 3724 6600 9683 11686 11705 	}
 }

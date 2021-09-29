@@ -7,8 +7,8 @@ state={
 	
 	history=
 	{
-		owner = SIE
-		add_core_of = SIE
+		owner = LIB
+		add_core_of = LIB
 		victory_points = {
 			2038 1 
 		}
@@ -22,6 +22,6 @@ state={
 	}
 	
 	provinces={
-		2038 2094 
+		2038 2094 5039
 	}
 }

@@ -69,6 +69,7 @@ leader_traits = {
 		}
 	}
 	
+	
 	brilliant_strategist = { 
 		type = land
 		trait_type = personality_trait

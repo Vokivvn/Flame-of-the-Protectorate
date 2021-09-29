@@ -1,20 +1,21 @@
 state={
 	id=786
-	name="STATE_786" # Sudan Snake
+	name="STATE_786" # Mauritanian Desert
 	manpower = 124200
 	
 	state_category = wasteland
+	impassable = yes
 
 	history={
-		owner = SUD
-		add_core_of = SUD
+		owner = FNA
+		add_core_of = FNA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		}
 
 	}
 
 	provinces={
-		4191
+		1897 1962 7943 8035 10771 10779 10838
 	}
 }

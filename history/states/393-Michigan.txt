@@ -8,31 +8,32 @@ state={
 	}
 
 	history={
-		owner = CNA
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
-			industrial_complex = 5
+			industrial_complex = 6
 			air_base = 4
 
 		}
-		add_core_of = CNA
+		add_core_of = USA
 		victory_points = {
 			6710 20 
 		}
-		victory_points = {
-			6769 5
-		}
-		victory_points = {
-			6782 5
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+
+			}
+
 		}
 
 	}
 
 	provinces={
-		3766 6710 6769 6782 7420 9724 9746 9747 10233 10303 11669 11714 11731 13155 13156 13199 13200 13201 
+		691 695 3766 5205 6710 6769 6782 6850 7420 9684 9724 9746 9747 10233 10303 11641 11656 11669 11685 11714 11731 13155 13199 13200 13201 
 	}
-	manpower=3617481
+	manpower=4842323
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=metropolis
 }

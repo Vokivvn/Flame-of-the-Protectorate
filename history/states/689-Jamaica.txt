@@ -1,18 +1,15 @@
 state={
 	id=689
 	name="STATE_689"
-	manpower = 1075000
+	manpower = 699000
 	
 	state_category = town
 
 	history={
-		add_core_of = CAR
-		owner = CAR
+		add_core_of = JAM
+		owner = JAM
 		victory_points = {
-			12304 20
-		}
-		victory_points = {
-			12477 5
+			12304 3
 		}
 		buildings = {
 			infrastructure = 4
@@ -22,7 +19,5 @@ state={
 		}
 	}
 	
-	provinces={ 
-		12304 12477 
-	}
+	provinces={ 12304 13270 13271 13272 }
 }

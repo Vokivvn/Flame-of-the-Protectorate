@@ -3,11 +3,20 @@ state={
 	name="STATE_589"
 
 	history={
-		owner = CHI
-		add_core_of = SIK
+		owner = SIK
+		add_core_of = KAZ
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
+		}
+		add_core_of = SIK
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+
+			}
+
 		}
 		victory_points = {
 			1668 1
@@ -15,9 +24,9 @@ state={
 	}
 
 	provinces={
-		1749 1818 1864 4651 4867 4674 7711 7784 7795 7856 7890 10550 10610 10619 10680 12427 12529 12564 12635 12662 13148 13149 13151 13197 7680
+		4651 7711 7784 7795 7856 10550 10619 10680 12529 12662 13148 13149 13197 1591 1840 4845 10547 1749 1818 1864 10610 12427 12635 4674 12564 10146
 	}
 	manpower=535191
 	buildings_max_level_factor=1.000
-	state_category=megalopolis #READ THE ERROR LOG
+	state_category=pastoral
 }

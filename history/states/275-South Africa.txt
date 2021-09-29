@@ -2,7 +2,7 @@
 state={
 	id=275
 	name="STATE_275" # Transvaal
-	manpower = 3680363
+	manpower = 2280363
 	
 	state_category = city
 	
@@ -22,10 +22,16 @@ state={
 		victory_points = {
 			10400 10
 		}
+		victory_points = {
+			1688 2
+		}
+		victory_points = {
+			1494 1
+		}
 		add_core_of = SAF
 	}
 
 	provinces={
-		1688 2171 2213 5106 5217 5231 10400 10566 10668 12064 12648 
+		1688 2171 2213 5106 5217 10400 10566 1494 13263
 	}
 }

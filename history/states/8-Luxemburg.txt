@@ -1,37 +1,28 @@
-
-state={
+state=
+{
 	id=8
 	name="STATE_8"
+	
+	state_category = town
+	
+	manpower = 294748
 	resources={
-		steel=5.000
+		steel=5 # was: 8
 	}
 
-	history={
-		owner = BRG
+	history=
+	{
+		owner = FRA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
-			#industrial_complex = 3
-			industrial_complex = 1
-
+			industrial_complex = 3
 		}
-		victory_points = {
-			6583 10
-		}
-		victory_points = {
-			9418 3
-		}
-		victory_points = {
-			11407 2
-		}
-		add_core_of = LUX
-		add_core_of = BRG
+		victory_points = { 6583 5 }
+		add_core_of = FRA
 	}
 
-	provinces={
-		6583 9418 11407 11435 
-	}
-	manpower=294748
-	buildings_max_level_factor=1.000
-	state_category=town
+	provinces=
+	{
+6583 	}
 }

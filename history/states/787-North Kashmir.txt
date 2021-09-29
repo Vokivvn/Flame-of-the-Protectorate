@@ -9,15 +9,15 @@ state={
 		victory_points = {
 			1910 1
 		}
-		owner = CHI
+		owner = SIE
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TIB
+		add_core_of = SIE
 
 	}
 
 	provinces={
-		5042 7273 10821 
+		1910 2041 2084 10821 
 	}
 }

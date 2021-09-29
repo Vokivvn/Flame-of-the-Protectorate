@@ -2,7 +2,7 @@
 state={
 	id=342
 	name="STATE_342" # Antalya
-	manpower = 362689
+	manpower = 742541
 	resources={
 		chromium=35 # was: 46
 	}
@@ -11,19 +11,19 @@ state={
 	history={
 		owner = TUR
 		victory_points = {
-			1005 1 
+			10041 1 
+		}
+		victory_points = {
+			10038 3 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			1005 = {
-				naval_base = 4
-			}
 		}
 		add_core_of = TUR
 	}
 
 	provinces={
-		1005 1119 9941 10122 11917 12013 12016 12096 
+		1119 9941 10122 11917 12013 12016 12096 10038 9929 10041 11907
 	}
 }

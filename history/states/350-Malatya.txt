@@ -2,31 +2,23 @@
 state={
 	id=350
 	name="STATE_350"
+	manpower = 818099
+	
+	state_category = city
 
 	history={
-		owner = KRD
+		owner = TUR
 		victory_points = {
-			4512 1 
-		}
-		victory_points = {
-			9823 1 
-		}
-		victory_points = {
-			7620 1 
+			7620 3
 		}
 		buildings = {
 			infrastructure = 3
 			air_base = 2
-
 		}
-		add_core_of = KRD
-
+		add_core_of = TUR
 	}
 
 	provinces={
-		4512 9823 11739 11759 12387 12416 
+		7620 876 9954 10399 9860 11797 
 	}
-	manpower=1047156
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

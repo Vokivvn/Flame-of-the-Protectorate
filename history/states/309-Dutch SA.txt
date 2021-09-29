@@ -1,16 +1,16 @@
-
 state={
 	id=309
 	name="STATE_309"
-	resources={
-		aluminium=60.000
-	}
+	manpower = 152000
+	resources={ aluminium=60 }	
+	
+	state_category = rural
 
 	history={
+		owner = USA
 		add_core_of = GYA
-		owner = GYA
 		victory_points = {
-			10906 1 
+			10906 1
 		}
 		buildings = {
 			infrastructure = 3
@@ -24,7 +24,4 @@ state={
 	provinces={
 		1928 10906 12828 
 	}
-	manpower=152000
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

@@ -2,9 +2,9 @@
 state={
 	id=346
 	name="STATE_346"
-	manpower = 430305
+	manpower = 786693
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
 		owner = TUR
@@ -12,14 +12,16 @@ state={
 			infrastructure = 3
 			air_base = 5
 		}
-		
 		victory_points = {
-			940 1 
+			940 5
+		}
+		victory_points = {
+			3870 5
 		}
 		add_core_of = TUR
 	}
 
 	provinces={
-		940 3788 6807 6894 9755 9763 9811 11792 11860 13122 
+		940 6807 6894 9755 9763 11792 13122 9861 869 9830 961 921 3870 
 	}
 }

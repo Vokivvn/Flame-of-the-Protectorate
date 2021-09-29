@@ -470,10 +470,10 @@ technologies = {
 				date > "1941.1.1"
 			}
 
-			#modifier = {
-			#	factor = 2
-			#	tag = GER
-			#}
+			modifier = {
+				factor = 2
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -551,16 +551,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = GER
-			#}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = SOV
-			#}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -592,16 +592,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = GER
-			#}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = SOV
-			#}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -633,16 +633,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = GER
-			#}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = SOV
-			#}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -670,16 +670,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = GER
-			#}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = SOV
-			#}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -707,16 +707,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = GER
-			#}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = SOV
-			#}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -744,16 +744,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = GER
-			#}
-			#modifier = {
-			#	factor = 3
-            #
-			#	tag = SOV
-			#}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
+			}
 		}
 		
 		categories = {

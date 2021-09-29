@@ -107,6 +107,14 @@ resistance_90 = {
 			set_temp_variable = { occupied_country = FROM }
 			set_temp_variable = { new_occupied_country = FROM }
 			
+			if = { #warsaw achievement
+				limit = {
+					var:occupied_country = { original_tag = POL }
+				}
+				set_global_flag = warsaw_liberated_self_flag
+			}
+			
+			
 			set_temp_variable = { civil_war_country_picked = 0 }
 			if = {
 				## pick an existing civil war country
@@ -149,91 +157,91 @@ resistance_90 = {
 			
 			
 			# change ideology if necessary
-			if = {
-				limit = { 
-					var:occupied_country = {
-						#only change ideology if we are not creating a new country and old country is not existing
-						OR = {
-							exists = no
-							NOT = { tag = new_occupied_country }
-						}
-					}
-				}
-				
-				# booleans that will be allowed to change ideology
-				set_temp_variable = { allowed_party_neutrality = 1 }
-				set_temp_variable = { allowed_party_democratic = 1 }
-				set_temp_variable = { allowed_party_fascism = 1 }
-				set_temp_variable = { allowed_party_communism = 1 }
-				
-				# do not change ideology of occupier country
-				var:occupier_country = {
-					remove_from_allowed_party = yes
-				}
-				
-				if = {
-					# if occupied country exists and different than new country
-					# it is white peaced & subject of occupier. ignore its ideology as well
-					limit = { NOT = { check_variable = { new_occupied_country = occupied_country } } }
-					var:occupied_country = {
-						remove_from_allowed_party = yes
-					}
-				}
-				
-				# change government if necesarry
-				#var:new_occupied_country = {
-				#	if = {
-				#		# check if our current ideology is OK
-				#		limit = { 
-				#			OR = {
-				#				AND = {
-				#					has_government = democratic
-				#					check_variable = { allowed_party_democratic = 0 }
-				#				}
-				#				AND = {
-				#					has_government = fascism
-				#					check_variable = { allowed_party_fascism = 0 }
-				#				}
-				#				AND = {
-				#					has_government = communism
-				#					check_variable = { allowed_party_communism = 0 }
-				#				}
-				#				AND = { 
-				#					has_government = neutrality
-				#					check_variable = { allowed_party_neutrality = 0 }
-				#				}
-				#			}
-				#		}
-				#		
-				#		random_list = {
-				#			allowed_party_democratic = {
-				#				set_popularities = {
-				#					democratic = 100
-				#				}
-				#				set_politics = { ruling_party = democratic elections_allowed = yes }
-				#			}
-				#			allowed_party_fascism = {
-				#				set_popularities = {
-				#					fascism = 100
-				#				}
-				#				set_politics = { ruling_party = fascism elections_allowed = no }
-				#			}
-				#			allowed_party_communism = {
-				#				set_popularities = {
-				#					communism = 100
-				#				}
-				#				set_politics = { ruling_party = communism elections_allowed = no }
-				#			}
-				#			allowed_party_neutrality = {
-				#				set_popularities = {
-				#					neutrality = 100
-				#				}
-				#				set_politics = { ruling_party = neutrality elections_allowed = no }
-				#			}
-				#		}
-				#	}
-				#}
-			}
+			#if = {
+			#	limit = { 
+			#		var:occupied_country = {
+			#			#only change ideology if we are not creating a new country and old country is not existing
+			#			OR = {
+			#				exists = no
+			#				NOT = { tag = new_occupied_country }
+			#			}
+			#		}
+			#	}
+			#	
+			#	# booleans that will be allowed to change ideology
+			#	set_temp_variable = { allowed_party_neutrality = 1 }
+			#	set_temp_variable = { allowed_party_democratic = 1 }
+			#	set_temp_variable = { allowed_party_fascism = 1 }
+			#	set_temp_variable = { allowed_party_communism = 1 }
+			#	
+			#	# do not change ideology of occupier country
+			#	var:occupier_country = {
+			#		remove_from_allowed_party = yes
+			#	}
+			#	
+			#	if = {
+			#		# if occupied country exists and different than new country
+			#		# it is white peaced & subject of occupier. ignore its ideology as well
+			#		limit = { NOT = { check_variable = { new_occupied_country = occupied_country } } }
+			#		var:occupied_country = {
+			#			remove_from_allowed_party = yes
+			#		}
+			#	}
+			#	
+			#	# change government if necesarry
+			#	var:new_occupied_country = {
+			#		if = {
+			#			# check if our current ideology is OK
+			#			limit = { 
+			#				OR = {
+			#					AND = {
+			#						has_government = democratic
+			#						check_variable = { allowed_party_democratic = 0 }
+			#					}
+			#					AND = {
+			#						has_government = fascism
+			#						check_variable = { allowed_party_fascism = 0 }
+			#					}
+			#					AND = {
+			#						has_government = communism
+			#						check_variable = { allowed_party_communism = 0 }
+			#					}
+			#					AND = { 
+			#						has_government = neutrality
+			#						check_variable = { allowed_party_neutrality = 0 }
+			#					}
+			#				}
+			#			}
+			#			
+			#			random_list = {
+			#				allowed_party_democratic = {
+			#					set_popularities = {
+			#						democratic = 100
+			#					}
+			#					set_politics = { ruling_party = democratic elections_allowed = yes }
+			#				}
+			#				allowed_party_fascism = {
+			#					set_popularities = {
+			#						fascism = 100
+			#					}
+			#					set_politics = { ruling_party = fascism elections_allowed = no }
+			#				}
+			#				allowed_party_communism = {
+			#					set_popularities = {
+			#						communism = 100
+			#					}
+			#					set_politics = { ruling_party = communism elections_allowed = no }
+			#				}
+			#				allowed_party_neutrality = {
+			#					set_popularities = {
+			#						neutrality = 100
+			#					}
+			#					set_politics = { ruling_party = neutrality elections_allowed = no }
+			#				}
+			#			}
+			#		}
+			#	}
+			#}
 			
 			# create resistance template for armies to spawn
 			var:new_occupied_country = {

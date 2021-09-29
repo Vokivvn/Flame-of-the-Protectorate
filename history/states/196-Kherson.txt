@@ -8,15 +8,15 @@ state={
 
 	history={
 		victory_points = {
-			721 10
+			721 1 
 		}
-		owner = UKR
+		owner = TAU
 		buildings = {
 			infrastructure = 5
 			air_base = 3
 
 		}
-		add_core_of = UKR
+		add_core_of = TAU
 
 	}
 

@@ -21,7 +21,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1956
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 0 }
@@ -52,7 +52,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1937
+		start_year = 1958
 		
 		folder = {
 			name = industry_folder
@@ -64,7 +64,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1937.1.1"
+				date > "1957.1.1"
 			}
 		}
 		
@@ -83,7 +83,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 1961
 		
 		folder = {
 			name = industry_folder
@@ -95,7 +95,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1939.1.1"
+				date > "1959.1.1"
 			}
 		}
 		
@@ -125,7 +125,7 @@ technologies = {
 		
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 1963
 		
 		folder = {
 			name = industry_folder
@@ -137,7 +137,7 @@ technologies = {
 			
 			modifier = {
 				factor = 10
-				date > "1941.1.1"
+				date > "1961.1.1"
 			}			
 		}
 		
@@ -152,7 +152,7 @@ technologies = {
 		line_change_production_efficiency_factor = 0.2
 		
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 1966
 		
 		XOR = {
 			streamlined_line
@@ -168,7 +168,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1943.1.1"
+				date > "1963.1.1"
 			}
 		}
 		
@@ -183,7 +183,7 @@ technologies = {
 		production_factory_efficiency_gain_factor = 0.1
 			
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 1966
 		
 		XOR = {
 			flexible_line
@@ -199,7 +199,7 @@ technologies = {
 			
 			modifier = {
 				factor = 10
-				date > "1943.1.1"
+				date > "1963.1.1"
 			}
 			
 		}
@@ -224,7 +224,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1937
+		start_year = 1958
 		
 		folder = {
 			name = industry_folder
@@ -236,7 +236,7 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1957.1.1"
 			}
 
 			#modifier = {
@@ -255,7 +255,7 @@ technologies = {
 		equipment_conversion_speed = 0.40
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1961
 		
 		folder = {
 			name = industry_folder
@@ -267,7 +267,7 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1957.1.1"
 			}
 
 			#modifier = {
@@ -283,17 +283,26 @@ technologies = {
 
 	###############
 	concentrated_industry = {
-
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
-		
+		production_speed_arms_factory_factor = 0.15
+		production_speed_industrial_complex_factor = 0.15
+		production_speed_air_base_factor = 0.15
+		production_speed_naval_base_factor = 0.15
+		production_speed_bunker_factor = 0.15
+		production_speed_coastal_bunker_factor = 0.15
+		production_speed_dockyard_factor = 0.15
+		production_speed_anti_air_building_factor = 0.15
+		production_speed_synthetic_refinery_factor = 0.15
+		production_speed_fuel_silo_factor = 0.15
+		production_speed_radar_station_factor = 0.15
+		production_speed_rocket_site_factor = 0.15
+		production_speed_nuclear_reactor_factor = 0.15
+		production_speed_infrastructure_factor = -0.15
 		path = {
 			leads_to_tech = concentrated_industry2 
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		
 		XOR = {
 			dispersed_industry
@@ -339,7 +348,7 @@ technologies = {
 						
 			modifier = {
 				factor = 5
-				date > "1937.1.1"
+				date > "1957.1.1"
 			}
 		}
 		
@@ -355,9 +364,8 @@ technologies = {
 	
 	concentrated_industry2 = {
 
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
+		consumer_goods_factor = 0.05
+		local_resources_factor = 0.25
 		
 		path = {
 			leads_to_tech = concentrated_industry3 
@@ -365,7 +373,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1937
+		start_year = 1958
 		
 		folder = {
 			name = industry_folder
@@ -377,7 +385,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1937.1.1"
+				date > "1957.1.1"
 			}
 			
 		}
@@ -394,9 +402,11 @@ technologies = {
 	
 	concentrated_industry3 = {
 
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
+	nuclear_production_factor = 0.15
+	industrial_capacity_factory = 0.15
+	industrial_capacity_dockyard = 0.1
+	global_building_slots_factor = 0.20
+	economy_cost_factor = 0.3
 		
 		path = {
 			leads_to_tech = concentrated_industry4 
@@ -404,7 +414,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 1961
 		
 		folder = {
 			name = industry_folder
@@ -416,7 +426,7 @@ technologies = {
 			
 			modifier = {
 				factor = 10
-				date > "1939.1.1"
+				date > "1959.1.1"
 			}			
 		}
 		
@@ -432,9 +442,9 @@ technologies = {
 	
 	concentrated_industry4 = {
 
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
+		political_power_cost = -0.1
+		local_factory_sabotage = -0.4
+		local_intel_to_enemies = -0.25
 		
 		path = {
 			leads_to_tech = concentrated_industry5
@@ -442,7 +452,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 1963
 		
 		folder = {
 			name = industry_folder
@@ -454,7 +464,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1941.1.1"
+				date > "1961.1.1"
 			}
 		}
 		
@@ -470,12 +480,12 @@ technologies = {
 	
 	concentrated_industry5 = {
 
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
-		
+		enable_building = {
+			building = labor_camp
+			level = 1
+		}
 		research_cost = 2
-		start_year = 1943
+		start_year = 1966
 		
 		folder = {
 			name = industry_folder
@@ -487,12 +497,12 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.9"
+				date > "1962.1.9"
 			}
 			
 			modifier = {
 				factor = 20
-				date > "1943.1.1"
+				date > "1963.1.1"
 			}			
 		}
 		
@@ -508,20 +518,15 @@ technologies = {
 	
 	dispersed_industry = {
 
-		industrial_capacity_factory = 0.1
-		industrial_capacity_dockyard = 0.1
-		line_change_production_efficiency_factor = 0.1
-		production_factory_start_efficiency_factor = 0.05
-		equipment_conversion_speed = 0.20
-		industry_air_damage_factor = -0.12
-		global_building_slots_factor = 0.2
+		equipment_conversion_speed = 0.5
+		#building_convertion_factor = 0.5
 		
 		path = {
 			leads_to_tech = dispersed_industry2 
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		
 		XOR = {
 			concentrated_industry
@@ -567,7 +572,7 @@ technologies = {
 
 			modifier = {
 				factor = 5
-				date > "1937.1.1"
+				date > "1957.1.1"
 			}
 		}
 		
@@ -583,12 +588,12 @@ technologies = {
 	
 	dispersed_industry2 = {
 
-		industrial_capacity_factory = 0.1
-		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory = 0.1
+		#industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.12
-		global_building_slots_factor = 0.2
+		industry_air_damage_factor = -0.3
+		global_building_slots_factor = 0.3
 		
 		path = {
 			leads_to_tech = dispersed_industry3 
@@ -596,7 +601,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1937
+		start_year = 1958
 		
 		folder = {
 			name = industry_folder
@@ -608,7 +613,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1937.1.1"
+				date > "1957.1.1"
 			}
 		}
 		
@@ -624,12 +629,9 @@ technologies = {
 	
 	dispersed_industry3 = {
 
-		industrial_capacity_factory = 0.1
-		industrial_capacity_dockyard = 0.1
-		line_change_production_efficiency_factor = 0.1
-		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.12
-		global_building_slots_factor = 0.2
+		production_speed_infrastructure_factor = 0.25
+		production_speed_industrial_complex_factor = 0.1
+		consumer_goods_factor = 0.1
 		
 		path = {
 			leads_to_tech = dispersed_industry4 
@@ -637,7 +639,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 1961
 		
 		folder = {
 			name = industry_folder
@@ -649,7 +651,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1939.1.1"
+				date > "1959.1.1"
 			}			
 		}
 		
@@ -665,12 +667,12 @@ technologies = {
 	
 	dispersed_industry4 = {
 
-		industrial_capacity_factory = 0.1
-		industrial_capacity_dockyard = 0.1
-		line_change_production_efficiency_factor = 0.1
-		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.12
-		global_building_slots_factor = 0.2
+		trade_laws_cost_factor = -0.35
+		#industrial_concern_cost_factor = -0.35
+		#tank_manufacturer_cost_factor = -0.35
+		#naval_manufacturer_cost_factor = -0.35
+		#materiel_manufacturer_cost_factor = -0.25
+		#political_advisor_cost_factor = -0.35
 		
 		path = {
 			leads_to_tech = dispersed_industry5 
@@ -678,7 +680,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 1963
 		
 		folder = {
 			name = industry_folder
@@ -690,7 +692,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1941.1.1"
+				date > "1961.1.1"
 			}
 		}
 		
@@ -706,16 +708,15 @@ technologies = {
 	
 	dispersed_industry5 = {
 
+		fuel_gain_factor = 0.2
+		trade_opinion_factor = 0.25
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
-		line_change_production_efficiency_factor = 0.1
-		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.12
-		global_building_slots_factor = 0.2
+		encryption_factor = 0.15
 		
 		
 		research_cost = 2
-		start_year = 1943
+		start_year = 1966
 		
 		folder = {
 			name = industry_folder
@@ -728,7 +729,7 @@ technologies = {
 			
 			modifier = {
 				factor = 10
-				date > "1943.1.1"
+				date > "1963.1.1"
 			}
 		}
 		
@@ -759,7 +760,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 1956
 		folder = {
 			name = industry_folder
 			position = { x = 1 y = 0 }
@@ -829,11 +830,11 @@ technologies = {
 			
 			modifier = {
 				factor = 0.2
-				date < "1937.1.1"
+				date < "1957.1.1"
 			}
 			modifier = {
 				factor = 0.4
-				date < "1938.1.1"
+				date < "1958.1.1"
 			}
 		}
 	}
@@ -849,7 +850,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 1936
+		start_year = 1957
 		folder = {
 			name = industry_folder
 			position = { x = 3 y = 2 }
@@ -914,7 +915,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 1937
+		start_year = 1958
 		folder = {
 			name = industry_folder
 			position = { x = 3 y = 4 }
@@ -970,7 +971,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 3
-		start_year = 1939
+		start_year = 1961
 		folder = {
 			name = industry_folder
 			position = { x = 3 y = 6 }
@@ -1017,7 +1018,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 3
-		start_year = 1941
+		start_year = 1963
 		folder = {
 			name = industry_folder
 			position = { x = 3 y = 8 }
@@ -1060,7 +1061,7 @@ technologies = {
 		fuel_gain_factor_from_states = 0.1
 
 		research_cost = 3
-		start_year = 1943
+		start_year = 1966
 		folder = {
 			name = industry_folder
 			position = { x = 3 y = 10 }
@@ -1114,7 +1115,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 1936
+		start_year = 1957
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 2 }
@@ -1159,7 +1160,7 @@ technologies = {
 		
 		fuel_gain_factor_from_states = 0.5
 
-		start_year = 1937
+		start_year = 1958
 
 		path = {
 			leads_to_tech = improved_oil_processing
@@ -1220,7 +1221,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1961
 		
 		folder = {
 			name = industry_folder
@@ -1279,7 +1280,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1963
 		
 		folder = {
 			name = industry_folder
@@ -1328,7 +1329,7 @@ technologies = {
 		fuel_gain_factor_from_states = 0.5
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 1966
 		
 		folder = {
 			name = industry_folder
@@ -1380,7 +1381,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1937
+		start_year = 1959
 		
 		folder = {
 			name = industry_folder
@@ -1439,7 +1440,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1961
 		
 		folder = {
 			name = industry_folder
@@ -1498,7 +1499,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1963
 		
 		folder = {
 			name = industry_folder
@@ -1552,7 +1553,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 1966
 		
 		folder = {
 			name = industry_folder
@@ -1603,7 +1604,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1956
 		categories = {
 			industry
 			construction_tech
@@ -1619,7 +1620,7 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				date > "1937.1.1"
+				date > "1957.1.1"
 			}
 		}
 	}
@@ -1689,7 +1690,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1937
+		start_year = 1958
 		
 		categories = {
 			industry
@@ -1706,7 +1707,7 @@ technologies = {
 			
 			modifier = {
 				factor = 10
-				date > "1937.1.1"
+				date > "1957.1.1"
 			}			
 		}
 	}
@@ -1720,7 +1721,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1937
+		start_year = 1961
 		
 		categories = {
 			industry
@@ -1778,7 +1779,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 1961
 		
 		categories = {
 			industry
@@ -1805,7 +1806,7 @@ technologies = {
 			
 			modifier = {
 				factor = 3
-				date > "1940.1.1"
+				date > "1960.1.1"
 			}
 		}
 	}
@@ -1820,7 +1821,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 1961
 		
 		categories = {
 			industry
@@ -1877,7 +1878,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 1963
 		
 		categories = {
 			industry
@@ -1894,7 +1895,7 @@ technologies = {
 			
 			modifier = {
 				factor = 10
-				date > "1941.1.1"
+				date > "1961.1.1"
 			}
 		}
 	}
@@ -1908,7 +1909,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 1963
 		
 		categories = {
 			industry
@@ -1962,7 +1963,7 @@ technologies = {
 
 		
 		research_cost = 2
-		start_year = 1943
+		start_year = 1966
 		
 		categories = {
 			industry
@@ -1979,7 +1980,7 @@ technologies = {
 			
 			modifier = {
 				factor = 10
-				date > "1943.1.1"
+				date > "1963.1.1"
 			}
 		}
 	}
@@ -1994,7 +1995,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1943
+		start_year = 1966
 		
 		categories = {
 			industry

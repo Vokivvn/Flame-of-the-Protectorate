@@ -1,4 +1,6 @@
-graphical_culture = commonwealth_gfx
-graphical_culture_2d = commonwealth_2d
 
-color = { 2  10  222 }
+
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+
+color = { 161  190  102 }

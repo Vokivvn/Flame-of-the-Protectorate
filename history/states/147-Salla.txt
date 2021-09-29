@@ -1,25 +1,25 @@
-
-state={
+state=
+{
 	id=147
 	name="STATE_147"
-
-	history={
-		owner = SWE
+	manpower = 4630
+	
+	state_category = enclave
+	
+	history = {	
+		owner = SOV
 		buildings = {
 			infrastructure = 3
-
 		}
 		add_core_of = SWE
-		victory_points = {
-			197 1 
-		}
+		add_core_of = SOV
 
+		victory_points = {
+			197 1
+		}
 	}
 
 	provinces={
-		36 80 92 134 155 157 2998 3033 3067 3071 3144 6094 6096 6098 6175 9074 9119 9123 9198 9231 11054 11092 11096 11146 11181 13130 
+		197 9158 11085 13218 13222 13220
 	}
-	manpower=4630
-	buildings_max_level_factor=1.000
-	state_category=enclave
 }

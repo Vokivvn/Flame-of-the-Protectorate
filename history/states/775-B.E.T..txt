@@ -3,17 +3,17 @@ state={
 	name="STATE_775" # BET - Borkou-Ennedi-Tibesti region
 	
 	state_category = wasteland
+	impassable = yes
 
 	history={
-		owner = CHA
-		add_core_of = CHA
+		owner = EGY
 		buildings = {
 			infrastructure = 0
 		}
 	}
 
 	provinces={
-		1956 4902 5136 10104 10893 10917
+		4902 4191
 	}
 	manpower=18744
 	buildings_max_level_factor=1.000

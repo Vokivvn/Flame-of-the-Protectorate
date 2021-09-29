@@ -1,86 +1,112 @@
-﻿capital = 339
+﻿capital = 341
+load_focus_tree = TUR_starting_out
+set_variable = { country_infamy = 2 } 
 
+set_variable = { TUR_Republican_Strength = 0.74 }
+set_variable = { TUR_CUP_Strength = 0.64 } 
 
+set_variable = { TUR_Armenian_Strength = 0.82 }
+set_variable = { TUR_Kurdish_Strength = 0.68 } 
+set_variable = { TUR_Arab_Strength = 0.52 }
 
-add_ideas = {
-	tur_the_janissaries
-	tur_turkish_intikamcilik
-	tur_british_corporations
-
-	british_econ_subordination
-	british_pol_kingmaking
-	british_controlled_forces
-}
-
-set_research_slots = 2
-
-set_stability = 0.5
-set_war_support = 0.1
-
-set_cosmetic_tag = TUR_ENG
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	#improved_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
-	trench_warfare = 1
-
-	transport = 1
-	fleet_in_being = 1
-	electronic_mechanical_engineering = 1
-	radio = 1
-	radio_detection = 1
-}
+set_research_slots = 3
 
 set_politics = {
-	ruling_party = despotism
-	last_election = "1935.11.14"
-	election_frequency = 12
-	elections_allowed = no	
+	ruling_party = liberalism
+	last_election = "1935.2.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	liberalism = 18
+	republicanism = 26
+	ultranationalism = 22
+	conservatism = 12
+	progressivism = 8
+	authoritarianism = 10
+	socialism = 4
 }
 
-set_popularities = {
-    cromwellianism = 5
-    marxism = 5
-    liberalism = 0
-    republicanism = 0
-    parliamentarianism = 5
-    administrationism = 5
-    absolutism = 20
-    despotism = 40
-    nationalism = 20
+add_ideas = {
+	TUR_the_mejidian_restorations
+	TUR_the_house_of_osman
+	TUR_the_caliphate
+	TUR_the_divided_society
 }
+
 create_country_leader = {
-	name = "Ahmed IV"
-	desc = "POLITICS_AHMED_IV_DESC"
-	picture = "Portrait_TUR_Sultan_Ahmed_IV.dds"
-	expire = "1999.12.12"
-	ideology = despotism_subtype
+	name = "Abdulmejid II"
+	desc = "POLITICS_Abdulmejid_II_DESC"
+	picture = "Leader_TUR_Sultan_Abdulmejid_II.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
 	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mustafa Kemal Pasha"
+	desc = "POLITICS_Mustafa_Kemal_DESC"
+	picture = "Leader_TUR_Mustafa_Kemal.dds"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Khalil Quds Pasha"
+	desc = "POLITICS_Khalil_Quds_DESC"
+	picture = "Leader_TUR_Khalil_Quds.dds"
+	expire = "1965.1.1"
+	ideology = Ultranationalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prince Ibrahim Tevfik"
+	desc = "POLITICS_Ibrahim_Tevfik_II_DESC"
+	picture = "Leader_TUR_Sultan_Ibrahim_Tevfik_II.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prince Ahmed Nihad"
+	desc = "POLITICS_Ahmed_Nihad_IV_DESC"
+	picture = "Leader_TUR_Sultan_Ahmed_Nihad_IV.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prince Omer Farouk"
+	desc = "POLITICS_Omer_Farouk_I_DESC"
+	picture = "Leader_TUR_Sultan_Omer_Farouk_I.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Huseyin Hilmi Bey"
+	desc = "POLITICS_Huseyin_Hilmi_DESC"
+	picture = "Leader_TUR_Huseyin_Hilmi.dds"
+	expire = "1965.1.1"
+	ideology = Socialism_subtype
+	traits = {
+		#
 	}
 }

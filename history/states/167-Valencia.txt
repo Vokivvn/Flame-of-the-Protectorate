@@ -7,18 +7,12 @@ state={
 	state_category = large_town
 
 	history={
-		owner = ARA
+		owner = SPR
 		victory_points = {
-			6906 30
+			6906 5
 		}
 		victory_points = {
-			4098 10
-		}
-		victory_points = {
-			962 5
-		}
-		victory_points = {
-			6817 10
+			4098 1
 		}
 		buildings = {
 			infrastructure = 6
@@ -31,7 +25,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = ARA
+		add_core_of = SPR
 	}
 
 	provinces={

@@ -6,15 +6,15 @@ state={
 	state_category = city
 
 	history={
-		owner = KHR
+		owner = SOV
 		victory_points = {
-			3580 15
+			3580 5
 		}
 		buildings = {
 			infrastructure = 5
 			air_base = 1
 		}
-		add_core_of = KHR
+		add_core_of = SOV
 	}
 
 	provinces={

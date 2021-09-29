@@ -1,3 +1,4 @@
+
 state={
 	id=526
 	name="STATE_526"
@@ -6,18 +7,21 @@ state={
 	state_category = small_island
 
 	history={
-		owner = EAC
-		add_core_of = EAC
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 			air_base = 3
 			11932 = {
 				naval_base = 3
+
 			}
+
 		}
 		victory_points = {
 			11932 10 
 		}
+
 	}
 
 	provinces={

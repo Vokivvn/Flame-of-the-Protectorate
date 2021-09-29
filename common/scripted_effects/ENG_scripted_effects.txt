@@ -1,69 +1,85 @@
-ENG_election_1 = {
-	if = {
-		limit = {
-			check_variable = { eng_av_power > eng_mary_power }
-			check_variable = { eng_av_power > eng_george_power }
-		}
-		country_event = { id = england.16 hours = 3 }
-	}
-	else_if = {
-		limit = {
-			check_variable = { eng_george_power > eng_mary_power }
-			check_variable = { eng_george_power > eng_av_power }
-		}
-		country_event = { id = england.18 hours = 3 }
-	}
-	else_if = {
-		limit = {
-			check_variable = { eng_mary_power > eng_av_power }
-			check_variable = { eng_mary_power > eng_george_power }
-		}
-		country_event = { id = england.19 hours = 3 }
-	}
-	else = {
-		if = {
-			limit = {
-				NOT = { has_country_flag = ENG_inv_George_accused }
-				}
-				country_event = { id = england.18 hours = 3 }
-			}
-		else = {
-			country_event = { id = england.16 hours = 3 }
-		}
-	}
+ENG_conservatives_gain_popularity = {
+	add_to_variable = { conservative_popularity = 1 }
+	custom_effect_tooltip = eng_conservative_boast
 }
 
-ENG_election_2 = {
-	if = {
+ENG_conservatives_lose_popularity = {
+	add_to_variable = { conservative_popularity = -1 }
+	custom_effect_tooltip = eng_conservative_malus
+}
+
+ENG_progressives_gain_popularity = {
+	add_to_variable = { progressive_popularity = 1 }
+	custom_effect_tooltip = eng_progressive_boast
+}
+
+ENG_progressives_lose_popularity = {
+	add_to_variable = { progressive_popularity = -1 }
+	custom_effect_tooltip = eng_progressive_malus
+}
+
+ENG_republican_gain_popularity = {
+	add_to_variable = { republican_popularity = 1 }
+	custom_effect_tooltip = eng_republican_boast
+}
+
+ENG_republican_lose_popularity = {
+	add_to_variable = { republican_popularity = -1 }
+	custom_effect_tooltip = eng_republican_malus
+}
+
+ENG_liberals_gain_popularity = {
+	add_to_variable = { liberals_popularity = 1 }
+	custom_effect_tooltip = eng_liberal_boast
+}
+
+ENG_liberals_lose_popularity = {
+	add_to_variable = { liberals_popularity = -1 }
+	custom_effect_tooltip = eng_liberal_malus
+}
+
+ENG_the_winner_is = {
+	if = { #Cuckservative victory
 		limit = {
-			check_variable = { eng_henry_power > eng_nicky_power }
-			check_variable = { eng_henry_power > eng_duarte_power }
-		}
-		country_event = { id = england.17 hours = 3 }
-	}
-	else_if = {
-		limit = {
-			check_variable = { eng_nicky_power > eng_henry_power }
-			check_variable = { eng_nicky_power > eng_duarte_power }
-		}
-		country_event = { id = england.15 hours = 3 }
-	}
-	else_if = {
-		limit = {
-			check_variable = { eng_duarte_power > eng_henry_power }
-			check_variable = { eng_duarte_power > eng_nicky_power }
-		}
-		country_event = { id = england.20 days = 1 }
-	}
-	else = {
-		if = {
-			limit = {
-				NOT = { has_country_flag = ENG_inv_Henry_accused }
-				}
-				country_event = { id = england.17 hours = 3 }
+			AND = {
+				check_variable = { conservative_popularity > liberals_popularity }
+				check_variable = { conservative_popularity > progressive_popularity }
+				check_variable = { conservative_popularity > republican_popularity }
 			}
-		else = {
-			country_event = { id = england.15 hours = 3 }
 		}
+		country_event = { id = ENG.15 days = 1 }
+	}
+
+	if = { #Libtard victory
+		limit = {
+			AND = {
+				check_variable = { conservative_popularity < liberals_popularity }
+				check_variable = { liberals_popularity > progressive_popularity }
+				check_variable = { liberals_popularity > republican_popularity }
+			}
+		}
+		country_event = { id = ENG.16 days = 1 }
+	}
+
+	if = { #Ew Mosley
+		limit = {
+			AND = {
+				check_variable = { conservative_popularity < republican_popularity }
+				check_variable = { republican_popularity > progressive_popularity }
+				check_variable = { liberals_popularity < republican_popularity }
+			}
+		}
+		country_event = { id = ENG.18 days = 1 }
+	}
+
+	if = { #AMAT
+		limit = {
+			AND = {
+				check_variable = { conservative_popularity < progressive_popularity }
+				check_variable = { republican_popularity < progressive_popularity }
+				check_variable = { liberals_popularity < progressive_popularity }
+			}
+		}
+		country_event = { id = ENG.17 days = 1 }
 	}
 }

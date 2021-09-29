@@ -8,14 +8,15 @@ state={
 	
 	resources={
 		chromium=1 # was: 2
-		aluminium=15 # was: 22
+		aluminium=20 # was: 22
 	}
 
 	history={
 		owner = DEN
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			industrial_complex = 2
+			arms_factory = 2
 			air_base = 1
 			9296 = {
 				naval_base = 3
@@ -26,7 +27,7 @@ state={
 				coastal_bunker = 1
 			}
 			122 = {
-				naval_base = 3
+				naval_base = 5
 				coastal_bunker = 2
 			}
 		}
@@ -34,15 +35,15 @@ state={
 			9296 1
 		}
 		victory_points = {
-			53 1
+			53 5
 		}
 		victory_points = {
-			122 3
+			122 35 #bergen
 		}
 		add_core_of = DEN
 	}
 
-	provinces={
-		53 65 102 122 137 188 199 3049 3090 3093 3096 3114 3129 3180 3188 3192 6145 6176 6204 6216 9047 9096 9127 9170 9196 9216 9296 11100 11101 11176 11198 11367 
+	provinces={ 
+		53 65 122 137 188 199 3049 3090 3114 3188 3192 6145 6176 9096 9127 9196 9296 11176 11367
 	}
 }

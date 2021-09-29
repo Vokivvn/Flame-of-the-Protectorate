@@ -1,28 +1,30 @@
-
 state={
 	id=633
 	name="STATE_633"
 	manpower=52517
-	
 	state_category = small_island
 
 	history={
-		owner = CIP
-		add_core_of = CIP
+		owner = USA
+		add_claim_by = PHI
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 			13040 = {
 				naval_base = 1
+
 			}
 			13041 = {
 				naval_base = 3
+
 			}
 			13043 = {
 				naval_base = 1
+
 			}
 			13046 = {
 				naval_base = 1
+
 			}
 			1002 = {
 				naval_base = 1
@@ -40,7 +42,6 @@ state={
 		victory_points = {
 			13046 1 
 		}
-
 	}
 
 	provinces={

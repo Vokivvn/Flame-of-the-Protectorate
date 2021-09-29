@@ -5,15 +5,15 @@ state={
 
 	history={
 		victory_points = {
-			11683 15
+			11683 3 
 		}
-		owner = UKR
+		owner = UKD
 		buildings = {
 			infrastructure = 5
 			dockyard = 1
 
 		}
-		add_core_of = UKR
+		add_core_of = UKD
 
 	}
 

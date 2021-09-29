@@ -6,8 +6,8 @@ state={
 	state_category = pastoral
 
 	history={
-		add_core_of = OMA
-		owner = OMA
+		add_core_of = QAT
+		owner = SOV
 		victory_points = {
 			8051 1
 		}
@@ -20,6 +20,6 @@ state={
 	}
 
 	provinces={
-		8051
+		8051 4932
 	}
 }

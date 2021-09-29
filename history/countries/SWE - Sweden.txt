@@ -1,132 +1,157 @@
-﻿capital = 141
+﻿capital = 141	
 
-set_research_slots = 2
+set_variable = { country_infamy = 8 } 
 
-load_focus_tree = sweden
-
-set_stability = 0.5
-set_war_support = 0.1
-
-set_cosmetic_tag = SWE_ENG
-
-SWE = {
-	create_faction = "Baltic Defense Organization"
-	add_to_faction = EST
-	add_to_faction = RIG
-	add_to_faction = LIT
-	add_to_faction = COU
-	add_to_faction = LIV
-	add_to_faction = BAD
-}
+set_research_slots = 3
 
 add_ideas = {
-	### Standard ###
-	SWE_swedish_royal_army
-	SWE_empire_realized
-	SWE_pro_anglo_stance
-	SWE_finnish_unrest
-	### Laws ###
-	limited_conscription
-	british_pol_kingmaking
-	british_influenced_forces
-	british_econ_influence_idea
 }
+set_stability = 0.9
+set_war_support = 0.1
 
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
 	gwtank = 1
 	basic_light_tank = 1
-	#improved_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	naval_bomber1 = 1
-	early_bomber = 1
 	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
-	trench_warfare = 1
-
-	transport = 1
-	fleet_in_being = 1
-	electronic_mechanical_engineering = 1
-	radio = 1
-	radio_detection = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
 }
-
 if = {
-	limit = { has_dlc = "Together for Victory" }
-	set_autonomy = {
-		target = BAD 
-		autonomy_state = autonomy_dominion
-	}
-	else = { 
-		puppet = BAD 
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		transport = 1
 	}
 }
-	
-BAD = {
-	set_politics = {
-		ruling_party = despotism  
-		last_election = "1935.11.14"
-		election_frequency = 12
-		elections_allowed = no
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		coastal_defense_ships = 1
+		mtg_transport = 1
 	}
-	set_popularities = {
-		cromwellianism = 0
-		marxism = 9
-		liberalism = 15
-		republicanism = 20
-		parliamentarianism = 0
-		administrationism = 0
-		absolutism = 0
-		despotism = 35
-		nationalism = 21
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "SWE_1939"
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+			set_naval_oob = "SWE_1939_naval_mtg"
+		else = {
+			set_naval_oob = "SWE_1939_naval_legacy"
+		}
+	}
+
+	set_technology = {
+		early_bomber = 1
+		tactical_bomber1 = 1
+		improved_light_tank = 1 
+		basic_medium_tank = 1 
+		gw_artillery = 1
+		interwar_artillery = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		submarine_operations = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		fuel_silos = 1
+		oil_processing = 1
+		improved_oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+	if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		set_technology = {
+			basic_submarine = 1
+		}
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		set_technology = {
+			basic_ship_hull_cruiser = 1
+		}
 	}
 }
 
 set_politics = {
-	ruling_party = despotism
-	last_election = "1935.11.14"
-	election_frequency = 12
-	elections_allowed = no
+	ruling_party = progressivism
+	last_election = "1932.9.18"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	progressivism = 100
 }
 
-set_popularities = {
-	cromwellianism = 4
-	marxism = 8
-	liberalism = 12
-	republicanism = 12
-	parliamentarianism = 7
-	administrationism = 2
-	absolutism = 0
-	despotism = 55
-	nationalism = 0
-}
+set_convoys = 25
+set_stability = 0.9
 
 create_country_leader = {
-	name = "Berthold I"
-	desc = "POLITICS_BERTHOLD_I_DESC"
-	picture = "Portrait_SWE_Berthold_of_Baden.dds"
-	expire = "1999.12.12"
-	ideology = despotism_subtype
+	name = "Gustaf V"
+	desc = "POLITICS_Gustaf_V_DESC"
+	picture = "Leader_SWE_Gustaf_V.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
 	traits = {
-	charismatic_despot	
+		#
 	}
 }

@@ -1,36 +1,32 @@
 ﻿capital = 230
 
-set_research_slots = 1
-set_stability = 0.5
-set_war_support = 0.5
-
-set_cosmetic_tag = ARM_ENG
+set_research_slots = 3
 
 set_politics = {
-	ruling_party = administrationism
-	last_election = "1935.11.14"
-	election_frequency = 12
+	ruling_party = socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-    cromwellianism = 1
-    marxism = 4
-    liberalism = 10
-    republicanism = 20
-    parliamentarianism = 30
-    administrationism = 20
-    absolutism = 10
-    despotism = 4
-    nationalism = 1
+	centralism = 20
+	socialism = 33
+	progressivism = 17
+	liberalism = 12
+	conservatism = 10
+	republicanism = 8
+	authoritarianism = 0
+	ultranationalism = 0
 }
 
 create_country_leader = {
-	name = "Woodrow Wilson"
-	#desc = 
-	picture = "Portrait_ARM_Woodrow_Wilson.dds"
-	expire = "1999.12.12"
-	ideology = administrationism_subtype
+	name = "Simon Vratsian"
+	desc = "POLITICS_Simon_Vratsian_DESC"
+	picture = "Leader_ARM_Simon_Vratsian.dds"
+	expire = "1965.1.1"
+	ideology = socialism_subtype
 	traits = {
+		#
 	}
 }
+

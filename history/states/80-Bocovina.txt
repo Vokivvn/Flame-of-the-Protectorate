@@ -5,16 +5,18 @@ state={
 	
 	state_category = rural
 	
-	history={
+	history=
+	{
 		victory_points = {
-			577 10
+			577 1 
 		}
-		owner = POL
+		owner = UKN
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 		}
-		add_core_of = POL
+		add_core_of = UKR
+		add_core_of = UKN
 	}
 	provinces={
 		577 9548

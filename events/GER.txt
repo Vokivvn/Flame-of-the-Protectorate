@@ -1,0 +1,19 @@
+﻿add_namespace = GER
+
+country_event = { # CLAIM
+	id = GER.1
+	title = GER.1.t
+	desc = GER.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = GER.1.a
+		add_state_claim = 51
+		add_state_claim = 42
+		add_state_claim = 832
+		add_state_claim = 843
+		add_state_claim = 28
+	}
+}

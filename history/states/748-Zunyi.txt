@@ -6,14 +6,20 @@ state={
 	}
 	history={
 		owner = YUN
-		add_core_of = YUN
 		add_core_of = CHI
-		set_demilitarized_zone = yes
+		add_core_of = YUN
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
 			1010 3
+		}
+		1939.1.1 = {
+			buildings = {
+				infrastructure = 4
+				air_base = 1
+			}
 		}
 	}
 	manpower=1500000

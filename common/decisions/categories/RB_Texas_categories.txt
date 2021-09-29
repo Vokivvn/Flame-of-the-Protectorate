@@ -1,9 +1,0 @@
-TEX_oil_dependence = {
-	picture = GFX_TEX_oil_hell
-	allowed = {
-		tag = TEX
-	}
-	visible = {
-		tag = TEX
-	}
-}

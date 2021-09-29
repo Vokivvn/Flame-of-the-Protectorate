@@ -1,76 +1,71 @@
-﻿capital = 322
-
-
-set_research_slots = 2
-
-set_stability = 0.5
-set_war_support = 0.1
-
-set_cosmetic_tag = TIB_ENG
+﻿capital = 757
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	#improved_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
-	trench_warfare = 1
+}
 
-	transport = 1
-	fleet_in_being = 1
-	electronic_mechanical_engineering = 1
-	radio = 1
-	radio_detection = 1
+add_ideas = {
+	CHI_Province_Tibet
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "TIB_1939"
+	set_technology = {
+		#doctrines
+		air_superiority = 1
+
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
 }
 
 set_politics = {
-	ruling_party = despotism
-	last_election = "1935.11.14"
-	election_frequency = 12
-	elections_allowed = no	
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
-
 set_popularities = {
-    cromwellianism = 0
-    marxism = 5
-    liberalism = 0
-    republicanism = 0
-    parliamentarianism = 3
-    administrationism = 2
-    absolutism = 5
-    despotism = 82
-    nationalism = 3
+	authoritarianism = 100
 }
 
 create_country_leader = {
-	name = "Li Sen"
-	#desc = 
-	picture = "Portrait_TIB_Li_Sen.dds"
-	expire = "1999.12.12"
-	ideology = despotism_subtype
+	name = "Ts'i Hiueliang"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Qi_Xieyuan.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
 	traits = {
+		#
 	}
 }

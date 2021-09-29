@@ -10,30 +10,30 @@ state={
 	state_category = town
 	
 	history={
-		owner = PAN
+		owner = COL
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 2 
 			air_base = 1
 			7630 = {
-				naval_base = 1
+				naval_base = 4
 			}
 			4611 = {
-				naval_base = 3
+				naval_base = 1
 			}
 		}
-		add_core_of = PAN
+		add_core_of = COL
 		victory_points = {
-			7630 1 
+			7630 5 
 		}
 		victory_points = {
-			4611 5
+			4611 1
 		}
 
 	}
 
 	provinces={
-		1633 4611 4624 7617 7630 10482 12878
+		1633 4611 4624 7630 10482 
 	}
 }

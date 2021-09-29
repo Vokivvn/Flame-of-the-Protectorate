@@ -11,22 +11,21 @@ state={
 	}
 
 	history={
-		owner = BRG
+		owner = FRA
 		victory_points = {
-			3652 30
-		}
-		victory_points = {
-			3681 5
-		}
-		victory_points = {
-			667 5
+			3652 5 
 		}
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
 			air_base = 2
 		}
-		add_core_of = BRG
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+			}
+		}
 	}
 
 	provinces={

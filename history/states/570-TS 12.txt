@@ -4,20 +4,19 @@ state={
 	name="STATE_570" # Novosibirsk
 	manpower = 1765369
 
-	state_category = city
+	state_category = town
 
 	history={
-		owner = SIB
+		owner = SOV
 		victory_points = {
-			7274 25
+			7274 3 
 		}
 		buildings = {
-			infrastructure = 1
-			arms_factory = 2
-			industrial_complex = 4
-			air_base = 1			
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 1
 		}
-		add_core_of = SIB
+		add_core_of = SOV
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3

@@ -4,8 +4,7 @@ state={
 	state_category = tiny_island
 	manpower=42
 	history={
-		owner = CIP
-		add_core_of = CIP
+		owner = USA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -13,6 +12,7 @@ state={
 				naval_base = 1
 			}
 		}
+
 	}
 	provinces={
 		13026

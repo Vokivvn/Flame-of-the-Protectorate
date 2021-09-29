@@ -2,17 +2,13 @@
 state={
 	id=57
 	name="STATE_57"
+	manpower = 5109333
+	state_category = large_city
 
 	history={
-		owner = BAD
+		owner = GER
 		victory_points = {
 			495 5 
-		}
-		victory_points = {
-			405 3
-		}
-		victory_points = {
-			3355 2
 		}
 		buildings = {
 			infrastructure = 8
@@ -21,13 +17,18 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = BAD
+		add_core_of = GER
+
+		1939.1.1 ={
+			buildings = {
+				radar_station = 1
+				arms_factory = 6
+				industrial_complex = 3
+			}
+		}
 	}
 
 	provinces={
-		405 3355 
+		495 3512 3398 6570 6622 9482 11346 
 	}
-	manpower=5109333
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

@@ -8,7 +8,7 @@ state={
 
 	history={
 		victory_points = {
-			3457 5
+			3457 3
 		}
 		owner = UKR
 		buildings = {
@@ -17,6 +17,8 @@ state={
 			air_base = 3
 		}
 		add_core_of = UKR
+		add_core_of = UKN
+		add_core_of = POL
 	}
 
 	provinces={

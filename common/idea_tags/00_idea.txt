@@ -18,9 +18,9 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = british_econ_influence
-		slot = british_pol_influence
-		slot = british_mil_influence
+		slot = corruption_laws
+		slot = militarystaffer_laws
+		slot = worker_laws
 		
 		cost = 150
 		removal_cost = 0
@@ -33,10 +33,10 @@ idea_categories = {
 		slot = materiel_manufacturer
 		slot = industrial_concern
 		slot = theorist
-    
+
 		cost = 150
 		removal_cost = 0
-    
+
 	}
 	
 	military_staff = {

@@ -4,26 +4,20 @@ state={
 	name="STATE_227"
 
 	history={
-		owner = UKR
+		owner = UKD
 		buildings = {
 			infrastructure = 5
 
 		}
 		victory_points = {
-			6474 25
+			6474 10 
 		}
-		victory_points = {
-			6420 15
-		}
-		victory_points = {
-			6530 5
-		}
-		add_core_of = UKR
+		add_core_of = UKD
 
 	}
 
 	provinces={
-		472 486 502 3421 3449 3466 3479 6420 6474 6493 6530 6776 11461 
+		502 3466 3479 3491 6474 
 	}
 	manpower=3767336
 	buildings_max_level_factor=1.000

@@ -15,7 +15,6 @@ ability = {
 					limit = {
 						has_dlc = "Waking the Tiger"
 					}
-					
 				}
 			}
 		}
@@ -66,9 +65,6 @@ ability = {
 		allowed = {
 			is_leading_army_group = no
 			is_border_war = no
-			OWNER = {
-				
-			}
 		}
 		
 		cost = 0.22

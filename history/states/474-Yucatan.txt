@@ -2,12 +2,12 @@
 state={
 	id=474
 	name="STATE_474"
-	manpower = 505000
+	manpower = 440289
 	
 	state_category = rural
 
 	history={
-		owner = BLZ
+		owner = USA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -18,17 +18,17 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = BLZ
+		add_core_of = USA
 		add_core_of = MEX
+		#victory_points = {
+		#	12715 3
+		#}
 		victory_points = {
-			4904 10
+			4904 1
 		}
-		victory_points = {
-			12715 25
-		}
-		victory_points = {
-			4965 5
-		}
+		#victory_points = {
+		#	4965 5
+		#}
 	}
 
 	provinces={

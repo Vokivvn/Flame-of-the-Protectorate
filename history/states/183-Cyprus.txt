@@ -1,7 +1,7 @@
 state= {
 	id=183
 	name="STATE_183"
-	manpower = 347959
+	manpower = 198102
 	
 	state_category = rural
 	resources={
@@ -10,8 +10,9 @@ state= {
 
 	history=
 	{
-		owner = BSP
-		add_core_of = BSP
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = CYP
 		victory_points = {
 			11984 5
 		}
@@ -27,7 +28,5 @@ state= {
 		}
 
 	}
-	provinces= { 
-		7193 11984 
-	}
+	provinces= { 7193 11984 }
 }

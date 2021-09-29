@@ -10,10 +10,8 @@ state= {
 	}
 
 	history= {
-		owner = YUN
-		add_core_of = YUN
+		owner = CHI
 		add_core_of = CHI
-		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -23,8 +21,18 @@ state= {
 		victory_points = { 
 			10404 3 
 		}
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = { has_dlc = "Waking the Tiger" }
+				}
+				CHI = { transfer_state = PREV }
+			}
+		}
+
 	}
 	provinces={
-		1023 1469 1597 1625 4028 4077 4085 4134 4152 4628 4656 7095 7128 7168 7210 7650 10039 10121 10404 10431 10459 12407 12436 7044 12023 11983 4121
+		1023 1469 1597 1625 4028 4077 4085 4134 4152 4628 4656 7095 7128 7168 7210 7650 10039 10121 10404 10431 10459 12407 12436 
 	}
 }

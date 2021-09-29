@@ -2,13 +2,13 @@ state=
 {
 	id=164
 	name="STATE_164"
-	manpower = 120000
+	manpower = 89192
 	
 	state_category = small_island
 	
 	history=
 	{
-		owner = IPL
+		owner = TUR
 		victory_points = {
 			10007 1 
 		}
@@ -22,9 +22,9 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = IPL
+		add_core_of = TUR
 	}
-	provinces={
-		7003 10007 
-	}
+	provinces=
+	{
+7003 10007 	}
 }

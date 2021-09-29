@@ -10,15 +10,19 @@ state={
 		victory_points = {
 			9809 3
 		}
-		owner = ALB
+		owner = SER
+		add_core_of = MNT
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			9809 = {
 				naval_base = 1
+
 			}
+
 		}
-		add_core_of = ALB
+		add_core_of = SER
+
 	}
 
 	provinces={

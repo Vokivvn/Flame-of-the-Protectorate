@@ -8,8 +8,7 @@ state=
 	
 	history=
 	{
-		owner = COG
-		add_core_of = EQG
+		owner = USA
 		victory_points = {
 			1903 1 
 		}
@@ -23,7 +22,7 @@ state=
 			}
 		}
 	}
-	provinces={
-		1903 8244 
-	}
+	provinces=
+	{
+1903 8244 	}
 }

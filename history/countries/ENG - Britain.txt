@@ -1,39 +1,40 @@
 ﻿capital = 126
 
-add_ideas = {
-	ENG_second_anglo_mexican_War
-	ENG_king_george_v
-	ENG_irish_unrest
-	ENG_britannia_rules_the_waves
-	ENG_sidelined_parliament
+set_variable = { country_infamy = 10 } 
+
+set_variable = { ENG_irish_patriot_party = 0.95 } 
+	set_variable = { ENG_irish_cavaliers_prominence = 0.52 } 
+	set_variable = { ENG_irish_cavaliers_status = 0.20 } 
+	set_variable = { ENG_irish_irish_republican_brotherhood_prominence = 0.26 } 
+	set_variable = { ENG_irish_irish_republican_brotherhood_status = 0.20 } 
+	set_variable = { ENG_irish_irish_tuc_prominence = 0.22 } 
+	set_variable = { ENG_irish_irish_tuc_status = 0.20 } 
 	
-	#laws
-	british_econ_influence_rule_britannia
-	british_pol_influence_rule_britannia
-	british_mil_influence_rule_britannia
-}
+set_variable = { ENG_NAVSR = 0.65 } 
+	set_variable = { ENG_scottish_scottish_covenant_prominence = 0.68 } 
+	set_variable = { ENG_scottish_scottish_covenant_status = 0.20 } 
+	set_variable = { ENG_scottish_scottish_democratic_redemption_party_prominence = 0.32 } 
+	set_variable = { ENG_scottish_scottish_democratic_redemption_party_status = 0.20 } 
+
+set_variable = { ENG_welsh_national_federation = 0.20 } 
+	set_variable = { ENG_welsh_plaid_cymru_prominence = 0.27 } 
+	set_variable = { ENG_welsh_plaid_cymru_status = 0.20 } 
+	set_variable = { ENG_welsh_welsh_labour_prominence = 0.73 } 
+	set_variable = { ENG_welsh_welsh_labour_status = 0.20 } 
+
 
 set_research_slots = 4
 
-oob = "ENG_1936"
-
 set_stability = 0.6
-set_war_support = 0.1
+set_war_support = 0.3
 
-set_variable = { MLT_election = -1 }
-set_variable = { ENG_Coalition_Tory = 50 }
-set_variable = { ENG_Coalition_Whig = 30 }
-set_variable = { ENG_Coalition_Labour = 10 }
-
-set_variable = { ENG_Tory_Power = 0 }
-set_variable = { ENG_Whig_Power = 0 }
-set_variable = { ENG_Fabian_Power = 0 }
+load_focus_tree = ENG_Starting_Out
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
 	motorised_infantry = 1
@@ -50,423 +51,158 @@ set_technology = {
 	naval_bomber1 = 1
 	early_bomber = 1
 	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
+	
 	trench_warfare = 1
 
-	transport = 1
+	
 	fleet_in_being = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
 	radio_detection = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = PCN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = PAT
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = PNG
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = HOB
+		autonomous_state = autonomy_supervised_state
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = KEN
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = BOT
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = RHO
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = CPC
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = BEA
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = BNP
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = GUJ
+		autonomous_state = autonomy_supervised_state
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = MAL
+	}
 }
 
 set_politics = {
-	ruling_party = absolutism
-	last_election = "1935.11.14"
-	election_frequency = 12
-	elections_allowed = yes	
+	ruling_party = conservatism
+	last_election = "1932.03.14"
+	election_frequency = 60
+	elections_allowed = yes
 }
-
 set_popularities = {
-    cromwellianism = 1
-    marxism = 3
-    liberalism = 7
-    republicanism = 9
-    parliamentarianism = 15
-    administrationism = 5
-    absolutism = 56
-    despotism = 3
-    nationalism = 1
+	socialism = 10
+	republicanism = 12
+	progressivism = 11
+	conservatism = 36
+	liberalism = 19
+	authoritarianism = 12
 }
-
-ENG = {
-	create_faction = "Commonwealth of Earth"
-	add_to_faction = POR
-	add_to_faction = ANG
-	add_to_faction = SAF
-	add_to_faction = BRA
-	add_to_faction = NET
-	add_to_faction = BRT
-	add_to_faction = DEN
-	add_to_faction = FRA
-	add_to_faction = VOC
-}
-
-set_convoys = 1000
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	add_to_tech_sharing_group = commonwealth_research
-}
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	set_autonomy = {
-		target = NET
-		autonomy_state = autonomy_constituent
-	}
-}
-
-NET = {
-	set_politics = {
-		ruling_party = despotism
-		last_election = "1935.11.14"
-		election_frequency = 12
-		elections_allowed = no
-	}
-
-	set_popularities = {
-    	cromwellianism = 0
-    	marxism = 0
-    	liberalism = 0
-   	 	republicanism = 10
-    	parliamentarianism = 15
-    	administrationism = 0
-    	absolutism = 20
-    	despotism = 55
-    	nationalism = 0
-	}
-}
-
-#puppet = 
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_ENG_King_George_V_Windsor.dds"
-	expire = "1999.12.12"
-	ideology = absolutism_subtype
+	name = "Neville Chamberlain"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "Leader_ENG_Neville_Chamberlain.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
 	traits = {
+		
 	}
 }
 
-create_field_marshal = {
-	name = "Alan Brooke"
-	picture = "Portrait_ENG_Brooke.dds"
-	traits = { defensive_doctrine trait_cautious career_officer }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 3
+create_country_leader = {
+	name = "Olaf Stapledon"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "Portrait_England_Olaf_Stapledon.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		
+	}
 }
 
-create_field_marshal = {
-	name = "Douglas Haig"
-	picture = "Portrait_England_Douglas_Haig.dds"
-	traits = { old_guard defensive_doctrine cavalry_officer thorough_planner }
-	skill = 5
-	attack_skill = 2
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 4
+create_country_leader = {
+	name = "Oswald Mosley"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "Portrait_Britain_Oswald_Mosely.dds"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+		
+	}
 }
 
-create_corps_commander = {
-	name = "Claude Auchinleck"
-	picture = "Portrait_Britain_Claude_Auchinleck.dds"
-	traits = { inflexible_strategist career_officer }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 5
+create_country_leader = {
+	name = "Herbert Samuel"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "Portrait_Britain_Herbert_Samuel.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+	traits = {
+		
+	}
 }
 
-create_corps_commander = {
-	name = "Neil Ritchie"
-	picture = "Portrait_Britain_Neil_Ritchie.dds"
-	traits = { inflexible_strategist armor_officer politically_connected  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Alan Cunningham"
-	picture = "Portrait_Britain_Alan_Cunningham.dds"
-	traits = {}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "William Slim"
-	picture = "Portrait_Britain_William_Slim.dds"
-	traits = { trickster war_hero }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Richard O'Connor"
-	picture = "Portrait_England_Richard_OConnor.dds"
-	traits = {  }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "William Platt"
-	picture = "Portrait_Britain_William_Platt.dds"
-	traits = {  }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "George Giffard"
-	picture = "Portrait_Britain_George_Giffard.dds"
-	traits = { career_officer }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Harold Alexander"
-	picture = "Portrait_ENG_Alexander.dds"
-	traits = { politically_connected }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Jackie Smyth"
-	picture = "Portrait_Britain_John_Jackie_Smyth.dds"
-	traits = { old_guard }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Thomas Jacomb Hutton"
-	picture = "Portrait_Britain_Thomas_Jacomb_Hutton.dds"
-	traits = { old_guard }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Arthur Percival"
-	picture = "Portrait_Britain_Arthur_Percival.dds"
-	traits = {  trait_cautious }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Merton Beckwith-Smith"
-	picture = "Portrait_Britain_Merton_Beckwith_Smith.dds"
-	traits = { commando }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Henry Pownall"
-	picture = "Portrait_Britain_Henry_Pownall.dds"
-	traits = {  trickster }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "John Vereker Lord Gort"
-	picture = "Portrait_Britain_John_Vereker.dds"
-	traits = { politically_connected trait_cautious }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Henry Wilson"
-	picture = "Portrait_Britain_Henry_Maitland_Wilson.dds"
-	traits = { old_guard politically_connected }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "William Gott"
-	picture = "Portrait_Britain_William_Gott.dds"
-	traits = { armor_officer war_hero inflexible_strategist }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Jock Campbell"
-	picture = "Portrait_Britain_Jock_Campbell.dds"
-	traits = { armor_officer  }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Oliver Leese"
-	picture = "Portrait_Britain_Oliver_Leese.dds"
-	traits = {  armor_officer harsh_leader politically_connected }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Miles Dempsey"
-	picture = "Portrait_Britain_Miles_Dempsey.dds"
-	traits = { brilliant_strategist infantry_officer career_officer }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Brian Horrocks"
-	picture = "Portrait_Britain_Brian_Horrocks.dds"
-	traits = {  armor_officer career_officer war_hero }
-	skill = 3
-	
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Archibald Wavell"
-	picture = "Portrait_Britain_Archibald_Wavell.dds"
-	traits = { career_officer }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_navy_leader = {
-	name = "James Fownes Somerville"
-		picture = "Portrait_Britain_James_Fownes_Somerville.dds"
-	traits = { superior_tactician }
-	skill = 5
-}
-
-create_navy_leader = {
-	name = "Henry Harwood"
-		picture = "Portrait_Britain_Henry_Harwood.dds"
-	traits = { old_guard_navy blockade_runner }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Andrew Cunningham"
-		picture = "Portrait_Britain_Andrew_Cunningham.dds"
-	traits = { blockade_runner superior_tactician }
-	skill = 5
-}
-
-create_navy_leader = {
-	name = "Bruce Fraser"
-		picture = "Portrait_Britain_Bruce_Fraser.dds"
-	traits = { blockade_runner }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "John Tovey"
-		picture = "Portrait_Britain_John_Tovey.dds"
-	traits = { superior_tactician }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Bernard Rawlings"
-		picture = "Portrait_Britain_Bernard_Rawlings.dds"
-	traits = {  }
-	skill = 1
-}
-
-create_navy_leader = {
-	name = "John Cunningham"
-		picture = "Portrait_Britain_John_Cunningham.dds"
-	traits = {  }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Charles Forbes"
-		picture = "Portrait_Britain_Charles_Forbes.dds"
-	traits = { fly_swatter }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Algernon Willis"
-		picture = "Portrait_Britain_Algernon_Willis.dds"
-	traits = { spotter }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Arthur Power"
-		picture = "Portrait_Britain_Arthur_Power.dds"
-	traits = {  }
-	skill = 2
+add_ideas = {
+	ENG_cromwells_legacy
+	ENG_all_alone
+	ENG_into_the_dark
+	# law
+	industrial
 }

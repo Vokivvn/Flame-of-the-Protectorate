@@ -8,10 +8,10 @@ state={
 		chromium=3 # was: 3
 	}
 	
-	state_category = megalopolis #READ THE ERROR LOG
+	state_category = town
 
 	history={
-		owner = CHI
+		owner = ANH
 		victory_points = {
 			4801 5
 		}
@@ -24,7 +24,7 @@ state={
 			industrial_complex = 3
 			air_base = 1
 		}
-		add_core_of = MON
+		add_core_of = ANH
 	}
 
 	provinces={

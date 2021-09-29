@@ -20,6 +20,12 @@ state={
 			air_base = 8
 		}
 		add_core_of = BLR
+		add_core_of = LIT
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+			}
+		}
 	}
 
 	provinces={

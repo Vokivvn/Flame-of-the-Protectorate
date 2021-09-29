@@ -8,13 +8,13 @@ state={
 	
 	history={
 		owner = LBA
+		add_core_of = LBA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = LBA
 	}
 	
 	provinces={
-		7136 13073 
+		7076 7136 8069 13073 
 	}
 }

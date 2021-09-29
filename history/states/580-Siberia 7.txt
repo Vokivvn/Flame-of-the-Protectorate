@@ -7,15 +7,12 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SIB
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 
 		}
-		victory_points = {
-			10620 10
-		}
-		add_core_of = SIB
+		add_core_of = SOV
 	}
 
 	provinces={

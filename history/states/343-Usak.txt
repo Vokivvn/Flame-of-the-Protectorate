@@ -2,20 +2,20 @@
 state={
 	id=343
 	name="STATE_343" # Afyon
-	manpower = 955763
+	manpower = 825360
 	resources={
 		chromium=25 # was: 32
 	}
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
 		owner = TUR
 		victory_points = {
-			10041 1 
+			9878 1 
 		}
 		victory_points = {
-			9878 1 
+			3951 1
 		}
 		buildings = {
 			infrastructure = 3
@@ -25,6 +25,6 @@ state={
 	}
 
 	provinces={
-		784 856 981 3856 3876 3983 6877 6945 9878 10041 11796 11831 11907 
+		856 981 3856 3983 6877 6945 9878 11796 11831 909 3951
 	}
 }

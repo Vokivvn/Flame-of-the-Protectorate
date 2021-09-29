@@ -1,8 +1,0 @@
-#CHAD systems
-
-CHA_economy_system = {
-	#picture = 
-	allowed = {
-		tag = CHA
-	}
-}

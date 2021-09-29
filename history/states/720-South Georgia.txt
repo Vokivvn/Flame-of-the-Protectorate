@@ -4,15 +4,16 @@ state={
 	manpower=30	
 	state_category = tiny_island
 	
-	history={
-		owner = PAT
+	history=
+	{
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 			10995 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = PAT
+		add_claim_by = ARG
 	}
 	
 	provinces={

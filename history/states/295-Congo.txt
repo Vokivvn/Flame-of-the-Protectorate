@@ -11,20 +11,21 @@ state={
 	}
 
 	history={
-		owner = COG
+		owner = DCG
+		add_core_of = DCG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			
+			10968 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
-			191 1 
+			5117 3 
 		}
-		
-			add_core_of = COG
 	}
 
 	provinces={
-		191 1516 1731 1817 1929 2024 4515 7716 9986 10858 12795 12907 13173
+		1731 2115 5117 7716 10858 10968 12896 12925 12945
 	}
 }

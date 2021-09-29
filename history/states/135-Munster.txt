@@ -13,13 +13,12 @@ state={
 			industrial_complex = 3
 		}
 		victory_points = {
-			7394 1 
+			7394 5
 		}
-		add_core_of = IRE
 		add_core_of = ENG
 	}
 
 	provinces={
-		6289 6313 6405 7394 9284 9310 9405 11237 11267 11334 
+		7394
 	}
 }

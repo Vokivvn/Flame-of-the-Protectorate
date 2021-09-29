@@ -6,17 +6,23 @@ state={
 	state_category = enclave
 	
 	history={
-		owner = CTC
-		add_core_of = CTC
+		owner = ANH
+		add_core_of = CHI
+		add_core_of = ANH
 		buildings = {
 			infrastructure = 3
-			11981 = {
-				naval_base = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
 			}
+		}
+		victory_points = {
+			7014 30
 		}
 	}
 	
 	provinces={
-		11981 
+		10034 12052 7014 12076
 	}
 }

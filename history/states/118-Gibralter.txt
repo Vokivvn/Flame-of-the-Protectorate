@@ -1,31 +1,23 @@
-
 state={
 	id=118
 	name="STATE_118"
-
+	manpower=21372
+	
+	state_category = enclave
 	history={
-		owner = GIB
-		victory_points = {
-			4135 10
-		}
+		owner = ENG
+		victory_points = { 4135 10 }
 		buildings = {
 			infrastructure = 6
 			air_base = 2
 			4135 = {
 				naval_base = 5
 				coastal_bunker = 2
-
 			}
-
 		}
-		add_claim_by = GIB
-
+		add_claim_by = SPR
 	}
-
 	provinces={
-		1048 4080 4135 7068 7153 9815 9979 10009 12070 
+		4135
 	}
-	manpower=750000
-	buildings_max_level_factor=1.000
-	state_category = enclave
 }

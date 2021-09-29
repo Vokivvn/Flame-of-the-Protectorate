@@ -1,4 +1,3 @@
-
 state={
 	id=684
 	name="STATE_684"
@@ -6,8 +5,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = CIP
-		add_core_of = CIP
+		owner = USA
+		add_claim_by = PHI
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -43,7 +42,6 @@ state={
 		victory_points = {
 			13028 1 
 		}
-
 	}
 
 	provinces={

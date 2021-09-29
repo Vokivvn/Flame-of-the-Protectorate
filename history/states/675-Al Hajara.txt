@@ -1,22 +1,20 @@
-
 state={
 	id=675
 	name="STATE_675"
+	manpower = 98912
+	
+	state_category = wasteland
 
 	history={
-		owner = LEV
+		owner = TUR
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = LEV
-
+		add_core_of = TUR
+		add_core_of = IRQ
 	}
-
+	
 	provinces={
-		1631 4951 10744 12413 12839 12879 
+		1631 4951 10744 12413 12839 10876
 	}
-	manpower=122093
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

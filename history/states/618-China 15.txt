@@ -4,11 +4,12 @@ state={
 	name="STATE_618" # Dzungaria
 	manpower = 670800
 
-	state_category = megalopolis #READ THE ERROR LOG
+	state_category = pastoral
 
 	history={
-		owner = CHI
+		owner = SIK
 		add_core_of = SIK
+		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

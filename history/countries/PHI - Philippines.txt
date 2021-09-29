@@ -1,26 +1,40 @@
 ﻿capital = 327
 
-set_research_slots = 1
-set_stability = 0.5
-set_war_support = 0.5
+set_cosmetic_tag = PHI_USA
 
-set_cosmetic_tag = PHI_ENG
-
-set_politics = {
-	ruling_party = despotism
-	last_election = "1935.11.14"
-	election_frequency = 12
-	elections_allowed = no
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
 }
 
+set_convoys = 5
+
+add_ideas = {
+	PHI_ignition_on_the_rise
+}
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.11.27"
+	election_frequency = 36
+	elections_allowed = no
+}
 set_popularities = {
-    cromwellianism = 1
-    marxism = 4
-    liberalism = 10
-    republicanism = 20
-    parliamentarianism = 30
-    administrationism = 20
-    absolutism = 10
-    despotism = 4
-    nationalism = 1
+	authoritarianism = 100
+}
+
+create_country_leader = {
+	name = "Theodore Roosevelt Jr."
+	desc = "POLITICS_THEODORE_ROOSEVELT_JR_DESC"
+	picture = "Portrait_Philippines_Theodore_Roosevelt_Jr.dds"
+	expire = "1965.1.1"
+	ideology = colonial_government
+	traits = {
+	}
 }

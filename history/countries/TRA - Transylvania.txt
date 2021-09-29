@@ -1,74 +1,39 @@
-﻿capital = 84
+﻿capital = 76
 
+set_variable = { country_infamy = 0 } 
 
-set_research_slots = 2
-
-set_stability = 0.5
-set_war_support = 0.1
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	#improved_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
-	trench_warfare = 1
-
-	transport = 1
-	fleet_in_being = 1
-	electronic_mechanical_engineering = 1
-	radio = 1
-	radio_detection = 1
-}
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
 
 set_politics = {
-	ruling_party = absolutism
-	last_election = "1935.11.14"
-	election_frequency = 12
-	elections_allowed = no	
+	ruling_party = progressivism
+	last_election = "1933.12.20"
+	election_frequency = 48
+	elections_allowed = yes
 }
-
 set_popularities = {
-    cromwellianism = 0
-    marxism = 5
-    liberalism = 0
-    republicanism = 0
-    parliamentarianism = 3
-    administrationism = 2
-    absolutism = 5
-    despotism = 82
-    nationalism = 3
+	progressivism = 100
 }
 
 create_country_leader = {
-	name = "EA SPORTS"
-	#desc = 
-	picture = "Portrait_CTC_Mark_Aitchison_Young.dds"
-	expire = "1999.12.12"
-	ideology = absolutism_subtype
+	name = "Károly Kós"
+	desc = "POLITICS_Károly_Kós-Voevod_DESC"
+	picture = "Leader_TRA_Karoly_Kos.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
 	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alexandru Vaida"
+	desc = "POLITICS_Alexandru_Vaida-Voevod_DESC"
+	picture = "Leader_TRA_Alexandru_Vaida-Voevod.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
 	}
 }

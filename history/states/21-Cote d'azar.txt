@@ -12,13 +12,10 @@ state={
 	history={
 		owner = FRA
 		victory_points = {
-			11834 40
+			911 1 
 		}
 		victory_points = {
-			958 5
-		}
-		victory_points = {
-			911 15
+			11834 10
 		}
 		buildings = {
 			infrastructure = 6
@@ -36,6 +33,11 @@ state={
 			}
 		}
 		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				dockyard = 3
+			}
+		}
 	}
 
 	provinces={

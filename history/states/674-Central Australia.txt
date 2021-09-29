@@ -2,21 +2,20 @@
 state={
 	id=674
 	name="STATE_674"
+	manpower = 30000
+	
+	state_category = wasteland
 
 	history={
-		owner = SWN
+		owner = WST
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SWN
-
+		add_core_of = WST
 	}
 
 	provinces={
-		1511 1526 1540 1652 2157 4630 5175 7453 8130 8228 8243 10983
+		2205 2221 2223 5138 5206 7623 8206 8237 10336 10936 10955 10979 10991 11013 12906 12915 12936 12992 13132 12934 1454 1478 4441 4462 4487 7481 2139 1514 12957
 	}
-	manpower=30000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

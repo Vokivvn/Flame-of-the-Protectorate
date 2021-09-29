@@ -7,14 +7,17 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = SIE
-		add_core_of = NGR
+		owner = FNA
+		add_core_of = FNA
+		victory_points = {
+			2056 1
+		}
 		buildings = {
 			infrastructure = 3
 		}
 	}
 
 	provinces={
-		1975 12707
+		1975 2056 12707
 	}
 }

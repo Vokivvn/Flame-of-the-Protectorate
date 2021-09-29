@@ -1,3 +1,4 @@
+
 state={
 	id=557
 	name="STATE_557" # Mauritania
@@ -6,17 +7,18 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = MRT
-		add_core_of = MRT
+		owner = FNA
+		add_core_of = FNA
 		victory_points = {
 			5034 1
 		}
 		buildings = {
 			infrastructure = 1
 		}
+
 	}
 
 	provinces={
-		5012 5034 5077 7992 8058 10875 10814
+		5034 5077 7992 8058 10814
 	}
 }

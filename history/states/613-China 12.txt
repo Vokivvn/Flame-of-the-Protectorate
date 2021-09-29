@@ -1,13 +1,15 @@
 
 state={
 	id=613
-	name="STATE_613"
-
+	name="STATE_613" # Shanghai
+	manpower = 17305100
+	
+	state_category = large_city
+	
 	history={
-		owner = GXC
-		add_core_of = GXC
+		owner = CHI
 		add_core_of = CHI
-		set_demilitarized_zone = yes
+		add_core_of = ANH
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -17,16 +19,13 @@ state={
 		victory_points = {
 			11913 20 
 		}
-		victory_points = {
-			10076 3 
-		}
 
+		1938.10.25 = {
+			controller = JAP
+		}
 	}
 
 	provinces={
-		996 7120 10076 11913 11982 13142 10034 12052
+		996 1089 4091 7120 11913 11928 11982 13142 
 	}
-	manpower=17305100
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

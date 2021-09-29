@@ -9,18 +9,17 @@ state={
 	}
 
 	history={
-		owner = UTY
+		owner = USA
 		buildings = {
 			infrastructure = 4
+
 		}
-		add_core_of = UTY
-		victory_points = {
-			4799 5
-		}
+		add_core_of = USA
+
 	}
 
 	provinces={
-		1862 4736 4799 4816 7756 7827 7879 10591 12399 
+		1862 4521 4607 4736 7827 10422 12134 12399 
 	}
 	manpower=91057
 	buildings_max_level_factor=1.000

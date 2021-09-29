@@ -4,24 +4,19 @@ state={
 	name="STATE_200"
 
 	history={
-		owner = UKR
-		victory_points = {
-			11405 15
-		}
-		victory_points = {
-			6596 5
-		}
+		owner = TAU
+		
 		buildings = {
 			infrastructure = 5
 			air_base = 3
 
 		}
-		add_core_of = UKR
+		add_core_of = TAU
 
 	}
 
 	provinces={
-		429 453 588 3399 3767 6596 9571 9729 11405 11700 
+		429 3399 3421 3449 3767 6420 6596 6776 9571 9729 11700 
 	}
 	manpower=1294082
 	buildings_max_level_factor=1.000

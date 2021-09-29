@@ -25,87 +25,75 @@ continent = {
 	name = europe
 	army = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 		}
 	}
 	
 	navy = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 		}
 	}
 	
 	political = {
-	    cromwellianism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds"
+	    centralism = {
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 			}
 		}
-		marxism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
+		socialism = {
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
+			}
+		}
+		progressivism = {
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 			}
 		}
 		liberalism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds"
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
+			}
+		}
+		conservatism = {
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 			}
 		}
 		republicanism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 			}
 		}
-		parliamentarianism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
+		authoritarianism = {
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 			}
 		}
-		administrationism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
-			}
-		}
-		absolutism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
-			}
-		}
-		despotism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
-			}
-		}
-		nationalism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
+		ultranationalism = {
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 			}
 		}
 		communism = {
-			male = { 
-				"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 			}
 		}
 		democratic = {
-			male = { 
-				"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 			}
 		}
 		fascism = {
-			male = { 
-				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 			}
 		}
 		neutrality = {
-			male = { 
-				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			male = {
+				"gfx/leaders/Europe/Leader_Generic_Criminal.dds"
 			}
 		}
 	}
@@ -134,19 +122,29 @@ continent = {
 	}
 
 	political = {
-	    cromwellianism = {
+	    centralism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_2.dds"
 			}
 		}
-		marxism = {
+		socialism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_2.dds" 
 			}
 		}
-		liberalism = {
+		progressivism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_2.dds"
+			}
+		}
+		liberalism = {
+			male = { 
+				"gfx/leaders/Portrait_Europe_Generic_land_2.dds" 
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/Portrait_Europe_Generic_land_2.dds" 
 			}
 		}
 		republicanism = {
@@ -154,27 +152,12 @@ continent = {
 				"gfx/leaders/Portrait_Europe_Generic_land_2.dds" 
 			}
 		}
-		parliamentarianism = {
+		authoritarianism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_2.dds" 
 			}
 		}
-		administrationism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_2.dds" 
-			}
-		}
-		absolutism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_2.dds" 
-			}
-		}
-		despotism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_2.dds" 
-			}
-		}
-		nationalism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_2.dds" 
 			}
@@ -224,19 +207,29 @@ continent = {
 	}
 	
 	political = {
-	    cromwellianism = {
+	    centralism = {
 			male = { 
 				"gfx/leaders/Portrait_South_America_Generic_land_1.dds"
 			}
 		}
-		marxism = {
+		socialism = {
 			male = { 
 				"gfx/leaders/Portrait_South_America_Generic_land_1.dds" 
 			}
 		}
-		liberalism = {
+		progressivism = {
 			male = { 
 				"gfx/leaders/Portrait_South_America_Generic_land_1.dds"
+			}
+		}
+		liberalism = {
+			male = { 
+				"gfx/leaders/Portrait_South_America_Generic_land_1.dds" 
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/Portrait_South_America_Generic_land_1.dds" 
 			}
 		}
 		republicanism = {
@@ -244,27 +237,12 @@ continent = {
 				"gfx/leaders/Portrait_South_America_Generic_land_1.dds" 
 			}
 		}
-		parliamentarianism = {
+		authoritarianism = {
 			male = { 
 				"gfx/leaders/Portrait_South_America_Generic_land_1.dds" 
 			}
 		}
-		administrationism = {
-			male = { 
-				"gfx/leaders/Portrait_South_America_Generic_land_1.dds" 
-			}
-		}
-		absolutism = {
-			male = { 
-				"gfx/leaders/Portrait_South_America_Generic_land_1.dds" 
-			}
-		}
-		despotism = {
-			male = { 
-				"gfx/leaders/Portrait_South_America_Generic_land_1.dds" 
-			}
-		}
-		nationalism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/Portrait_South_America_Generic_land_1.dds" 
 			}
@@ -315,19 +293,29 @@ continent = {
 	}
 	
 	political = {
-	    cromwellianism = {
+	    centralism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_3.dds"
 			}
 		}
-		marxism = {
+		socialism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_3.dds" 
 			}
 		}
-		liberalism = {
+		progressivism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		liberalism = {
+			male = { 
+				"gfx/leaders/Portrait_Europe_Generic_land_3.dds" 
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/Portrait_Europe_Generic_land_3.dds" 
 			}
 		}
 		republicanism = {
@@ -335,27 +323,12 @@ continent = {
 				"gfx/leaders/Portrait_Europe_Generic_land_3.dds" 
 			}
 		}
-		parliamentarianism = {
+		authoritarianism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_3.dds" 
 			}
 		}
-		administrationism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_3.dds" 
-			}
-		}
-		absolutism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_3.dds" 
-			}
-		}
-		despotism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_3.dds" 
-			}
-		}
-		nationalism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_3.dds" 
 			}
@@ -405,7 +378,7 @@ continent = {
 	}
 	
 	political = {
-	    cromwellianism = {
+	    centralism = {
 			male = { 
 				"gfx/leaders/Portrait_Africa_Generic_land_1.dds"	
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
@@ -419,15 +392,6 @@ continent = {
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"		
 			}
 		}
-		nationalism = {
-			male = { 
-				"gfx/leaders/Portrait_Africa_Generic_land_1.dds" 
-				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
-				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
-				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
-			}
-		}
 		neutrality = {
 			male = { 
 				"gfx/leaders/Portrait_Africa_Generic_land_1.dds" 
@@ -435,9 +399,24 @@ continent = {
 				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
 			}
 		}
-		marxism = {
+		socialism = {
 			male = { 
 				"gfx/leaders/Portrait_Africa_Generic_land_1.dds" 
+			}
+		}
+		liberalism = {
+			male = { 
+				"gfx/leaders/Portrait_Africa_Generic_land_1.dds" 
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/Portrait_Africa_Generic_land_1.dds" 
+			}
+		}
+		progressivism = {
+			male = { 
+				"gfx/leaders/Portrait_Africa_Generic_land_1.dds"
 			}
 		}
 		republicanism = {
@@ -445,27 +424,12 @@ continent = {
 				"gfx/leaders/Portrait_Africa_Generic_land_1.dds" 
 			}
 		}
-		parliamentarianism = {
+		authoritarianism = {
 			male = { 
 				"gfx/leaders/Portrait_Africa_Generic_land_1.dds" 
 			}
 		}
-		liberalism = {
-			male = { 
-				"gfx/leaders/Portrait_Africa_Generic_land_1.dds"
-			}
-		}
-		administrationism = {
-			male = { 
-				"gfx/leaders/Portrait_Africa_Generic_land_1.dds" 
-			}
-		}
-		absolutism = {
-			male = { 
-				"gfx/leaders/Portrait_Africa_Generic_land_1.dds" 
-			}
-		}
-		despotism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/Portrait_Africa_Generic_land_1.dds" 
 			}
@@ -526,19 +490,29 @@ continent = {
 	}
 
 	political = {
-	    cromwellianism = {
+	    centralism = {
 			male = { 
 				"gfx/leaders/Portrait_Asia_Generic_land_1.dds"
 			}
 		}
-		marxism = {
+		socialism = {
 			male = { 
 				"gfx/leaders/Portrait_Asia_Generic_land_1.dds" 
 			}
 		}
-		liberalism = {
+		progressivism = {
 			male = { 
 				"gfx/leaders/Portrait_Asia_Generic_land_1.dds"
+			}
+		}
+		liberalism = {
+			male = { 
+				"gfx/leaders/Portrait_Asia_Generic_land_1.dds" 
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/Portrait_Asia_Generic_land_1.dds" 
 			}
 		}
 		republicanism = {
@@ -546,27 +520,12 @@ continent = {
 				"gfx/leaders/Portrait_Asia_Generic_land_1.dds" 
 			}
 		}
-		parliamentarianism = {
+		authoritarianism = {
 			male = { 
 				"gfx/leaders/Portrait_Asia_Generic_land_1.dds" 
 			}
 		}
-		administrationism = {
-			male = { 
-				"gfx/leaders/Portrait_Asia_Generic_land_1.dds" 
-			}
-		}
-		absolutism = {
-			male = { 
-				"gfx/leaders/Portrait_Asia_Generic_land_1.dds" 
-			}
-		}
-		despotism = {
-			male = { 
-				"gfx/leaders/Portrait_Asia_Generic_land_1.dds" 
-			}
-		}
-		nationalism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/Portrait_Asia_Generic_land_1.dds" 
 			}
@@ -614,12 +573,27 @@ continent = {
 	}
 	
 	political = {
-	    cromwellianism = {
+	    centralism = {
 			male = { 
 				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds"
 			}
 		}
-		marxism = {
+		socialism = {
+			male = { 
+				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds" 
+			}
+		}
+		liberalism = {
+			male = { 
+				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds" 
+			}
+		}
+		progressivism = {
+			male = { 
+				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds"
+			}
+		}
+		conservatism = {
 			male = { 
 				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds" 
 			}
@@ -629,32 +603,12 @@ continent = {
 				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds" 
 			}
 		}
-		liberalism = {
-			male = { 
-				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds"
-			}
-		}
-		parliamentarianism = {
+		authoritarianism = {
 			male = { 
 				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds" 
 			}
 		}
-		administrationism = {
-			male = { 
-				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds" 
-			}
-		}
-		absolutism = {
-			male = { 
-				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds" 
-			}
-		}
-		despotism = {
-			male = { 
-				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds" 
-			}
-		}
-		nationalism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/Portrait_Arabia_Generic_land_1.dds" 
 			}
@@ -705,19 +659,29 @@ continent = {
 	}
 	
 	political = {
-	    cromwellianism = {
+	    centralism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_1.dds"
 			}
 		}
-		marxism = {
+		socialism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
 			}
 		}
-		liberalism = {
+		progressivism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_1.dds"
+			}
+		}
+		liberalism = {
+			male = { 
+				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
 			}
 		}
 		republicanism = {
@@ -725,27 +689,12 @@ continent = {
 				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
 			}
 		}
-		parliamentarianism = {
+		authoritarianism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
 			}
 		}
-		administrationism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
-			}
-		}
-		absolutism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
-			}
-		}
-		despotism = {
-			male = { 
-				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
-			}
-		}
-		nationalism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/Portrait_Europe_Generic_land_1.dds" 
 			}

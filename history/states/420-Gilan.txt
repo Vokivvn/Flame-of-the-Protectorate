@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = PER
+		owner = PGG
 		buildings = {
 			infrastructure = 3
 		}
@@ -15,6 +15,6 @@ state={
 	}
 
 	provinces={
-		4553 4609 4637 4901 7969 10454 10523 
+		4553 4609 4637 4901 7969 10523 13365 12793
 	}
 }

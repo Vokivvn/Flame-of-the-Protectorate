@@ -6,14 +6,8 @@ state={
 	state_category = tiny_island
 
 	history={
-		add_core_of = CAR
-		owner = CAR
-		victory_points = {
-			4450 5
-		}
-		victory_points = {
-			7123 5
-		}
+		add_core_of = BAS
+		owner = USA
 		buildings = {
 			infrastructure = 4
 			4450 = {

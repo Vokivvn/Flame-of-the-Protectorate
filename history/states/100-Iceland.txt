@@ -7,8 +7,9 @@ state=
 	state_category = rural
 	
 	
-	history={
-		owner = ENG
+	history=
+	{
+		owner = DEN
 		victory_points = { 12674 1 }
 		buildings = {
 			infrastructure = 2
@@ -16,10 +17,10 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = ENG
+		add_core_of = DEN
 		add_core_of = ICE
 	}
-	provinces = { 
-		4861 12674 12689
-	}
+	provinces=
+	{
+4861 12674 12689 	}
 }

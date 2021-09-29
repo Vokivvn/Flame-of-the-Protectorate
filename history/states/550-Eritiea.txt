@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = DJI
-		add_core_of = ERI
+		owner = ETH
+		add_core_of = ETH
 		victory_points = {
 			12766 1
 		}
@@ -22,6 +22,6 @@ state=
 		}
 	}
 	provinces={
-		2072 5017 5047 5091 8043 12723 12766
+		5017 5047 5091 12723 12766
 	}
 }

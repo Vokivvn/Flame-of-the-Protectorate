@@ -7,17 +7,33 @@ state={
 	state_category = rural
 	
 	history={
-		owner = ANG
+		owner = PEA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+			8245 = {
+				naval_base = 1
+			}
 			2123 = {
 				naval_base = 1
 			}
 		}
+		victory_points = {
+			8245 2
+		}
+		victory_points = {
+			2123 1 
+		}
+		victory_points = {
+			12935 1
+		}
+		victory_points = {
+			12971 1
+		}
+		add_core_of = PEA
 	}
 
 	provinces={
-		2120 2123 2180 2216 5155 5164 12908 12935 12950 12971 
+		2120 2123 2159 2180 2193 2202 2217 5155 5164 5177 5212 8245 12935 12950 12971
 	}
 }

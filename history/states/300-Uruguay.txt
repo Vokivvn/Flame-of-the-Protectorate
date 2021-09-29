@@ -11,7 +11,7 @@ state={
 		steel=1 # was: 2
 	}
 	history={
-		owner = UGY
+		owner = ARG
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -24,9 +24,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = UGY
-		add_claim_by = BRA
-		add_claim_by = ARG
+		add_core_of = ARG
 		victory_points = {
 			10362 5
 		}

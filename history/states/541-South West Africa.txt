@@ -4,21 +4,30 @@ state={
 	name="STATE_541"
 	manpower = 462000
 	
-	state_category = wasteland
+	state_category = city
+
+	resources={
+		steel=8
+	}
 
 	history={
-		owner = SAF
+		owner = NMB
+		add_core_of = NMB
 		buildings = {
 			infrastructure = 3
+			2207 = {
+				naval_base = 8
+			}
 		}
 		victory_points = {
-			4879 1
+			4879 3
 		}
-		add_core_of = SAF
-		add_core_of = NMB
+		victory_points = {
+			2207 1
+		}
 	}
 
 	provinces={
-		2207 2229 4879 5154 5189 7605 7770 10957 10963 10978
+		2207 2229 4879 5154 5189 7605 7770 10957 10963 12519
 	}
 }

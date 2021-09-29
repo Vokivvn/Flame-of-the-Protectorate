@@ -6,15 +6,26 @@ state={
 		owner = YUN
 		add_core_of = YUN
 		add_core_of = CHI
-		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 2
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+				infrastructure = 4
+				air_base = 1
+				arms_factory = 2
+
+			}
+
 		}
 		victory_points = {
 			4504 3 
 		}
+
 	}
 
 	provinces={

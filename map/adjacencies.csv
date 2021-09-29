@@ -3,8 +3,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
 480;9431;sea;8621;-1;-1;-1;-1;;Netherlands outlier
-5709;2756;sea;13232;13233;13230;13235;13234;NICARAGUA_CANAL;Nicaragua
-2729;2408;sea;6257;2949;1598;2962;1612;KIEL_CANAL;Kiel
+8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
+2756;5709;sea;11363;-1;-1;-1;-1;NICARAGUAN_CANAL;Nicaraguan Canal
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
@@ -113,7 +113,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9680;6741;sea;8282;-1;-1;-1;-1;;Kerch Strait
 9859;3962;sea;5946;-1;-1;-1;-1;;Tsugaru Strait
 10011;7110;sea;2708;4825;1219;-1;-1;;Tushima-Kyushu
-4160;1070;sea;5244;-1;-1;-1;-1;;Hainan-Strait
+4160;1038;sea;5244;-1;-1;-1;-1;;Hainan-Strait
 1712;12147;sea;8978;-1;-1;-1;-1;;Quebec-Strait
 3691;7813;sea;6261;-1;-1;-1;-1;;Cold Ass-Strait
 7259;1393;sea;5257;-1;-1;-1;-1;;Vancouver-Strait
@@ -125,6 +125,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6062;6205;sea;3590;-1;-1;-1;-1;;West Scottish-Strait
 8435;6550;sea;7452;-1;-1;-1;-1;;Aegan Isle-Strait
 7304;4360;sea;8614;-1;-1;-1;-1;;New Foundland-Strait
+13286;13287;sea;2506;-1;-1;-1;-1;INTERNATIONAL_NORTH_SEA_STRAIT;Mandated Territory
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
@@ -133,12 +134,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;12807;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-10810;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;8041;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
+12730;7455;impassable;-1;-1;-1;-1;-1;;Himalayas
+12730;12860;impassable;-1;-1;-1;-1;-1;;Himalayas
+12730;1116;impassable;-1;-1;-1;-1;-1;;Himalayas
+1996;12322;impassable;-1;-1;-1;-1;-1;;Himalayas
 4318;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -174,17 +173,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
-1897;5010;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-1897;5097;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-1897;1962;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-8036;8069;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-8036;4692;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-1962;4692;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-8019;7950;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-5010;10734;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-7041;5041;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-7950;5010;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-8062;7912;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
-1962;10836;impassable;-1;-1;-1;-1;-1;;ethiopia mountains
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

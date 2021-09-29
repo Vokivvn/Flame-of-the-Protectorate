@@ -2,25 +2,24 @@
 state={
 	id=475
 	name="STATE_475"
+	manpower = 805874
+	
+	state_category = rural
 
 	history={
-		owner = MEX
+		owner = FCA
 		buildings = {
 			infrastructure = 3
-
 		}
-		add_core_of = MEX
+		add_core_of = FCA
+
 		victory_points = {
-			1900 10
+			1900 3
 		}
-
-		set_demilitarized_zone = yes
 	}
 
 	provinces={
-		1900 12753 13256 
+		1900 12753 
 	}
-	manpower=805874
-	buildings_max_level_factor=1.000
-	state_category=rural
+	
 }

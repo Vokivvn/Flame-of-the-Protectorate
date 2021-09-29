@@ -7,8 +7,9 @@ state=
 	state_category = large_town
 	history=
 	{
-		owner = CTC
-		add_core_of = TAI
+		owner = JAP
+		add_core_of = CHI
+		#
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -18,10 +19,10 @@ state=
 			}
 		}
 		victory_points = {
-			7186 1 
+			7186 5 
 		}
 		victory_points = {
-			12068 5 
+			12068 1 
 		}
 
 	}

@@ -9,26 +9,24 @@ state={
 	}
 
 	history={
-		owner = MEX
+		owner = USA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+			air_base = 2
 
 		}
-		add_core_of = MEX
+		add_core_of = USA
 		victory_points = {
-			853 10 
-		}
-		victory_points = {
-			12765 5 
+			853 3 
 		}
 
 	}
 
 	provinces={
-		853 1793 4796 6897 7747 7764 7818 7821 8115 10573 11814 12765 
+		850 853 1793 4796 6897 7747 7764 7818 7821 8115 10573 11814 12765 
 	}
-	manpower=268911
+	manpower=435572
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -3,10 +3,8 @@ state={
 	name="STATE_703"
 	manpower=458
 	state_category = tiny_island
-	
 	history= {
-		owner = SAF
-		add_core_of = SAF
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 			13013 = {

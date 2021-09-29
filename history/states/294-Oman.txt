@@ -2,33 +2,30 @@
 state={
 	id=294
 	name="STATE_294"
+	manpower = 369000
+	
+	state_category = town
+	
 	resources={
-		oil=2.000
+		oil=2 # was: 2
 	}
 
 	history={
-		owner = OMA
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 1 
 			10760 = {
 				naval_base = 3
-
 			}
-
 		}
 		victory_points = {
 			10760 3 
 		}
-		add_core_of = OMA
-
 	}
 
 	provinces={
-		4993 8020 10760 
+		1947 2103 4993 8002 8020 10760 
 	}
-	manpower=369000
-	buildings_max_level_factor=1.000
-	state_category=rural
 }
