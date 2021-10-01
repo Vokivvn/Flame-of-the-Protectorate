@@ -101,6 +101,23 @@ set_popularities = {
 	socialism = 10
 }
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = KOR
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = KOR
+	}
+}
+
 create_country_leader = {
 	name = "Hara Takashi"
 	desc = "POLITICS_Hara_Takashi_DESC"

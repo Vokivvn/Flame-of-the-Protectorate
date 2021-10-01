@@ -1,111 +1,61 @@
 ideas = {
 	country = {
-		
-		GER_late_to_the_party = { #oprotunity in Germany, come in and see what is avilable
 	
-				allowed = {
-					always = no
-				}
+		GER_frankfurt_constitution = {
+		
+			allowed = {
+				always = no
+			}
 
-				removal_cost = -1
+			removal_cost = -1
 
-				picture = idea_GER_late_to_the_party
-
-				modifier = {
-					stability_weekly = 0.01
-					weekly_manpower = 400
-					army_morale_factor = 0.1 
-					opinion_gain_monthly_factor = 0.15
-				}
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.1
+			}
 		}
 		
-		GER_undetermined_destiny = { #pessimistic outlook, germany exists but confused, france and poland hold propper land, germany is a blank slate, what to do?
-	
-				allowed = {
-					always = no
-				}
+		GER_the_old_haunt = {
+		
+			allowed = {
+				always = no
+			}
 
-				removal_cost = -1
+			removal_cost = -1
 
-				picture = idea_GER_undetermined_destiny
-
-				modifier = {
-					war_support_weekly = 0.01 
-					political_power_gain = 0.1
-					surrender_limit = -0.2
-				}
+			modifier = {
+				stability_factor = -0.05
+				drift_defence_factor = -0.25
+			}
 		}
 		
-		GER_rapid_industrialisation = {
-	
-				allowed = {
-					always = no
-				}
+		GER_the_fifth_power = {
+		
+			allowed = {
+				always = no
+			}
 
-				removal_cost = -1
+			removal_cost = -1
 
-				picture = idea_GER_rapid_industrialisation
-
-				modifier = {
-					consumer_goods_factor = 0.1
-					production_speed_infrastructure_factor = 0.2 
-					production_speed_industrial_complex_factor = 0.2
-					production_speed_arms_factory_factor = 0.1
-					
-				}
+			modifier = {
+				political_power_gain = 0.05
+				trade_opinion_factor = 0.05
+			}
 		}
 		
-		GER_rival_nationalism_winning = {
+		GER_die_wacht_am_rhein = {
 	
-				allowed = {
-					always = no
-				}
+			allowed = {
+				always = no
+			}
 
-				removal_cost = -1
+			removal_cost = -1
 
-				picture = FRA_GER_rival_nationalism3
-
-				modifier = {
-					war_support_factor = 0.15
-					#partisan_effect = 0.1
-					#enemy_partisan_effect = -0.1
-				}
-				targeted_modifier = { tag = FRA attack_bonus_against = 0.15 }
+			modifier = {
+				war_support_factor = 0.10
+				stability_factor = -0.05
+			}
+			targeted_modifier = { tag = FRA attack_bonus_against = 0.1 }
 		}
-		
-		GER_rival_nationalism_even = {
-	
-				allowed = {
-					always = no
-				}
-
-				removal_cost = -1
-
-				picture = FRA_GER_rival_nationalism2
-
-				modifier = {
-					war_support_factor = 0.10
-					#partisan_effect = 0.1
-				}
-				targeted_modifier = { tag = FRA attack_bonus_against = 0.1 }
-		}
-		
-		GER_rival_nationalism_losing = {
-	
-				allowed = {
-					always = no
-				}
-
-				removal_cost = -1
-
-				picture = FRA_GER_rival_nationalism1
-
-				modifier = {
-					#partisan_effect = -0.1
-					#enemy_partisan_effect = 0.1
-				}
-				targeted_modifier = { tag = FRA attack_bonus_against = -0.1 }
-		}
-		
 	}
 }

@@ -142,6 +142,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
+		
 		SOV_legacy_of_the_1903_interregnum = {	
 			allowed = {
 				always = no
@@ -152,9 +153,12 @@ ideas = {
 			picture = SOV_legacy_of_the_1903_interregnum
 
 			modifier = {
-				
+				political_power_gain = -0.5
+				stability_factor = -0.5
+				command_power_gain = -0.5
 			}
 		}
+		
 		SOV_the_tsars_apathy = {	
 			allowed = {
 				always = no
@@ -165,9 +169,11 @@ ideas = {
 			picture = SOV_the_tsars_apathy
 
 			modifier = {
-				
+				political_power_gain = -0.1
+				drift_defence_factor = -0.25
 			}
 		}
+		
 		SOV_the_engelhardt_reformation = {	
 			allowed = {
 				always = no
@@ -178,9 +184,13 @@ ideas = {
 			picture = SOV_the_engelhardt_reformation
 
 			modifier = {
-				
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				mobilization_speed = 0.05
+				experience_gain_army = 0.05
 			}
 		}
+		
 		SOV_where_yermak_lays_his_gaze = {	
 			allowed = {
 				always = no
@@ -191,7 +201,9 @@ ideas = {
 			picture = SOV_where_yermak_lays_his_gaze
 
 			modifier = {
-				
+				stability_factor = 0.05
+				surrender_limit = 0.1
+				production_speed_infrastructure_factor = 0.1
 			}
 		}
 	}

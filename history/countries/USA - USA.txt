@@ -178,27 +178,31 @@ if = {
 	}
 	set_autonomy = {
 		target = MOR
-		autonomous_state = autonomy_supervised_state
+		autonomous_state = autonomy_satellite
 	}
 	set_autonomy = {
 		target = RIF
-		autonomous_state = autonomy_supervised_state
+		autonomous_state = autonomy_satellite
 	}
 	set_autonomy = {
 		target = SIA
-		autonomous_state = autonomy_supervised_state
+		autonomous_state = autonomy_satellite
 	}
 	set_autonomy = {
 		target = NMB
-		autonomous_state = autonomy_supervised_state
+		autonomous_state = autonomy_colonial_regime
 	}
 	set_autonomy = {
 		target = LIB
-		autonomous_state = autonomy_supervised_state
+		autonomous_state = autonomy_colonial_regime
 	}
 	set_autonomy = {
 		target = PHI
-		autonomous_state = autonomy_supervised_state
+		autonomous_state = autonomy_colonial_regime
+	}
+	set_autonomy = {
+		target = GYA
+		autonomous_state = autonomy_colonial_regime
 	}
 	else = {
 		puppet = MOR
@@ -207,6 +211,26 @@ if = {
 		puppet = NMB
 		puppet = LIB
 		puppet = PHI
+		puppet = GYA
+	}
+}
+
+GYA = { # annoying, but necessary
+	set_politics = {
+		ruling_party = authoritarianism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		centralism = 0
+		socialism = 0
+		progressivism = 0
+		liberalism = 0
+		conservatism = 0
+		republicanism = 0
+		authoritarianism = 94
+		ultranationalism = 6
 	}
 }
 

@@ -16,7 +16,6 @@ state={
 		}
 		add_core_of = PAT
 		add_core_of = ARG
-		add_core_of = CHL
 	}
 
 	provinces={

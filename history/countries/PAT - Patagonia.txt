@@ -26,14 +26,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = authoritarianism
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	conservatism = 100
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	republicanism = 0
+	authoritarianism = 100
+	ultranationalism = 0
 }
 
 create_country_leader = {
@@ -42,6 +49,17 @@ create_country_leader = {
 	picture = "Portrait_Patagonia_Alfred_Roberts.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Adrian Carton de Wiart"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
 	traits = {
 		#
 	}
