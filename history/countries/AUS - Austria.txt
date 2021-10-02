@@ -30,11 +30,11 @@ set_politics = {
 set_popularities = {
 	socialism = 0
 	republicanism = 0
-	progressivism = 17
+	progressivism = 0
 	liberalism = 0
-	conservatism = 59
-	authoritarianism = 13
-	ultranationalism = 11
+	conservatism = 40
+	authoritarianism = 36
+	ultranationalism = 24
 }
 
 add_ideas = {

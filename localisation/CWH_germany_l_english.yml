@@ -10,12 +10,12 @@
   GER_liberalism_party_long:0 "Deutsche Volkspartei"
   GER_conservatism_party:0 "Z"
   GER_conservatism_party_long:0 "Zentrum"
-  GER_republicanism_party:0 "DNVP"
-  GER_republicanism_party_long:0 "Deutschnationale Volkspartei"
-  GER_authoritarianism_party:0 "KB"
-  GER_authoritarianism_party_long:0 "Kaiserliche Liga"
-  GER_ultranationalism_party:0 "NSDAP"
-  GER_ultranationalism_party_long:0 "Nationalsozialistische Deutsche Arbeiterspartei"
+  GER_republicanism_party:0 "DDP"
+  GER_republicanism_party_long:0 "Deutsche Demokratische Partei"
+  GER_authoritarianism_party:0 "DNVP"
+  GER_authoritarianism_party_long:0 "Deutschnationale Volkspartei"
+  GER_ultranationalism_party:0 "DNVP"
+  GER_ultranationalism_party_long:0 "Deutschnationale Volkspartei"
   
  ## Ideas ##
  GER_late_to_the_party:0 "Late to the Party"

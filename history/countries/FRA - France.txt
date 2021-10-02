@@ -63,18 +63,18 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = republicanism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	socialism = 23
+	socialism = 24
 	centralism = 10
-	progressivism = 15
-	liberalism = 10
-	authoritarianism = 10
-	conservatism = 32
+	progressivism = 6
+	liberalism = 14
+	republicanism = 25
+	conservatism = 21
 }
 
 add_ideas = {
@@ -103,5 +103,5 @@ create_country_leader = {
 	desc = "POLITICS_Maurice_Gamelin_DESC"
 	picture = "Portrait_FRA_Maurice_Gamelin.dds"
 	expire = "1965.1.1"
-	ideology = conservatism_subtype
+	ideology = republicanism_subtype
 }

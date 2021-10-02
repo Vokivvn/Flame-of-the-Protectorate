@@ -117,7 +117,25 @@
  AUS_Front_Of_The_Forefathers:0 "Front of the Forefathers"
  AUS_Front_Of_The_Forefathers_desc:0 ""
 
- # AustroFash
+ ## Parties ##
+ AUS_centralism_party:0 "KPÖ"
+ AUS_centralism_party_long:0 "Kommunistische Partei Österreichs"
+ AUS_socialism_party:0 "SDAPÖ"
+ AUS_socialism_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs"
+ AUS_progressivism_party:0 "BDS"
+ AUS_progressivism_party_long:0 "Bund Demokratischer Sozialisten"
+ AUS_liberalism_party:0 "D"
+ AUS_liberalism_party_long:0 "Demokraten"
+ AUS_conservatism_party:0 "CP"
+ AUS_conservatism_party_long:0 "Christlichsoziale Partei"
+ AUS_republicanism_party:0 "GDVP"
+ AUS_republicanism_party_long:0 "Großdeutsche Volkspartei"
+ AUS_authoritarianism_party:0 "Lanbund"
+ AUS_authoritarianism_party_long:0 "Lanbund"
+ AUS_ultranationalism_party:0 "Heimwehr"
+ AUS_ultranationalism_party_long:0 "Heimwehr"
+
+ # AustroFascists
  
  AUS_ascension_of_the_standestaat:0 "Ascension of the Ständestaat"
  AUS_ascension_of_the_standestaat_desc:0 ""
@@ -206,15 +224,15 @@
  #events
  AUS.0.t:0 "An Introduction To Austria"
  AUS.0.desc:0 "pog"
- AUS.0.a:0 "ok buddy"
+ AUS.0.a:0 "ok"
 
  AUS.1.t:0 "Our Shattered Lands"
  AUS.1.desc:0 "pog"
- AUS.1.a:0 "ok buddy franz"
+ AUS.1.a:0 "ok"
 
  AUS.2.t:0 "Franz Ferdinand's Decree"
  AUS.2.desc:0 "POG"
- AUS.2.a:0 "ok buddy franz"
+ AUS.2.a:0 "ok"
 
  AUS.3.t:0 "Pacification of Slovakia"
  AUS.3.desc:0 "pog"
@@ -250,11 +268,11 @@
 
  AUS.12.t:0 "Hungary Accepts Terms"
  AUS.12.desc:0 "We have given them good terms that they liked"
- AUS.12.a:0 "Based"
+ AUS.12.a:0 "ok"
 
  AUS.13.t:0 "A General Joins Our Ranks"
  AUS.13.desc:0 "Kurt Daluege joins now, because he realised he loves fascism"
- AUS.13.a:0 "(Un)Based"
+ AUS.13.a:0 "ok"
 
  AUS.14.t:0 "The Fate of the Kaiser"
  AUS.14.desc:0 "The Empire is no more, but its Emperor remains a thorn in the side of the new administration. Debate has been raging over what should be done with Franz Ferdinand and his family. A prominent member of the Pan-Germanists, Rudolf Hess, has been riling up support and calling for the Emperor to be publically shot and his family kept imprisoned until they can be trusted. However, Dolfuss will have none of it. In a speech to the Faschistischer Übergangsrat von Österreich, the Transitional Fascist Council of Austria, the Lord Protector said that while the Emperor was a traitor, the monarchy had been an ancient tradition of the proud nation, and it must be respected while Austria transitions to a new state dedicated to upholding the Austrian Identity. The Kaiser is old and his children lost any claim decades ago and thus pose no threat, and so he and his family should be allowed to leave peacefully and live in exile.\n\nThis was the first major decision of the Transitional Fascist Council, and thus whoever came on top would shape the course of the new government and how it would be led. The debate raged for hours and then days, but finally a decision had to be made."
@@ -271,7 +289,7 @@
 
  AUSslovakia.2.t:0 "Invasion of Slovakia"
  AUSslovakia.2.desc:0 "pog"
- AUSslovakia.2.a:0 "and 9/11 have in common?"
+ AUSslovakia.2.a:0 "ok"
  
  FASH_AUS.1.t:0 "The Final Nail"
  FASH_AUS.1.desc:0 "In the late hours of the evening, the 1st Imperial-Royal Landwehr Infantry Regiment returned home from Silesia, weary, tired, and defeated. Before the sun had even risen the next morning, their rifles were aimed at the Hofburg. They and their officers had defected to Fascist command, with the defeat in Poland being the final straw. After a tense standoff and very limited exchange of gunfire, the Kaiser and his family surrendered and were imprisoned in the Geheime Ratstube of the Leopoldine Wing, formerly where the Privy Council would meet. It was in this room where Franz Ferdinand had once renounced all claims to the throne for his descendants, and around midnight he was forced to give up his empire, this time not only renouncing the throne for himself but also declaring the crown to be defunct and the Empire to be no more.\n\nEngelbert Dolfuss has taken control of the nation and taken the title of Herr Beschützer, or Lord Protector, in homage to another mighty figure who overthrew the monarchy in the name of faith and nation, Oliver Cromwell. Dolfuss has declared the start of a new era for Austria, one in which the Austrian identity is preserved and Catholicism and the Church are paramount. Unfortunately for him, many in his own Fascist movement have been angered by this, and the Pan-Germanists under Adolf Hitler have made it very clear that they have a different and more ambitious goal, one which embraces the German identity over the Austrian."
