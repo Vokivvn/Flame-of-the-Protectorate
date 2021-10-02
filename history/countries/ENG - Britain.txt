@@ -130,6 +130,11 @@ if = {
 		autonomous_state = autonomy_satellite
 		freedom_level = 0.2
 	}
+	set_autonomy = { # sarawak
+		target = SRW
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
 	else = {
 		puppet = MAL
 	}

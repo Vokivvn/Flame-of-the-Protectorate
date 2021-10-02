@@ -52,14 +52,6 @@ if = {
 		target = JMB
 		autonomous_state = autonomy_satellite
 	}
-	set_autonomy = {
-		target = BNG
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = KTI
-		autonomous_state = autonomy_satellite
-	}
 	else = {
 		puppet = HSU
 		puppet = LAN
@@ -69,8 +61,6 @@ if = {
 		puppet = BAL
 		puppet = GWA
 		puppet = JMB
-		puppet = BNG
-		puppet = KTI
 	}
 }
 

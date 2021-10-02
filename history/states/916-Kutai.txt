@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = KTI
+		owner = INS
 		add_core_of = KTI
 		buildings = {
 			infrastructure = 3

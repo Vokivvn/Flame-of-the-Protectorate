@@ -66,8 +66,14 @@ if = {
 		autonomous_state = autonomy_colonial_regime
 		freedom_level = 0.2
 	}
+	set_autonomy = {
+		target = PEI
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
 	else = {
 		puppet = PEA
+		puppet = PEI
 	}
 }
 
