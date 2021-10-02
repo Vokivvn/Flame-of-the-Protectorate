@@ -1,7 +1,7 @@
 ﻿capital = 295
 
 set_politics = {
-	ruling_party = ultranationalism
+	ruling_party = authoritarianism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -10,11 +10,26 @@ set_popularities = {
 	centralism = 0
 	socialism = 0
 	progressivism = 0
-	liberalism = 0
+	liberalism = 23
 	conservatism = 0
 	republicanism = 0
-	authoritarianism = 0
-	ultranationalism = 100
+	authoritarianism = 56
+	ultranationalism = 21
+}
+
+add_ideas = {
+	DCG_freistaat
+	DCG_amero_dutch_investment
+}
+
+create_country_leader = {
+	name = "Nebelun Ludwig I von Löwenburg"
+	desc = "POLITICS_Nebelun_Ludwig_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Ludwig_Neapelowin_.dds"
+	expire = "1965.1.1"
+	ideology = colonial_government
+	traits = {
+	}
 }
 
 create_country_leader = {

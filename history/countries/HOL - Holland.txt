@@ -29,19 +29,3 @@ create_country_leader = {
 		#
 	}
 }
-
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = DCG
-		autonomous_state = autonomy_satellite
-	}
-	else = {
-		puppet = DCG
-	}
-}

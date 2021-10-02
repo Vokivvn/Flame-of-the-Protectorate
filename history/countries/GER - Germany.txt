@@ -12,19 +12,38 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	centralism = 3
+	centralism = 4
 	socialism = 10
-	progressivism = 24
-	republicanism = 8 
-	liberalism = 43
-	conservatism = 12
+	progressivism = 20
+	liberalism = 23
+	conservatism = 22
+	republicanism = 5
+	authoritarianism = 14
+	ultranationalism = 2
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = DCG
+		autonomous_state = autonomy_colonial_regime
+	}
+	else = {
+		puppet = DCG
+	}
 }
 
 add_ideas = {
-	GER_late_to_the_party
-	GER_undetermined_destiny
-	GER_rapid_industrialisation
-	GER_rival_nationalism_even
+	GER_frankfurt_constitution
+	GER_the_old_haunt
+	GER_the_fifth_power
+	GER_die_wacht_am_rhein
+	
 	# laws
 	mixed
 }

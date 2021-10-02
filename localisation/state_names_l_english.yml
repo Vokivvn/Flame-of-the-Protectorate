@@ -888,7 +888,7 @@
  STATE_887:0 "Makassar"
  STATE_888:0 "Jambi"
  STATE_889:0 "Kathmandu"
- STATE_890:0 "Tekirdag" 
+ STATE_890:0 "Tekirdag"
  STATE_891:0 "Çanakkale"
  STATE_892:0 "Antalya"
  STATE_893:0 "Urfa"
@@ -991,3 +991,5 @@
  STATE_990:0 "Tjiæmenn"
  STATE_991:0 "Pearl Port"
  STATE_992:0 "Port Weihai"
+ STATE_993:0 "Formosa"
+ 

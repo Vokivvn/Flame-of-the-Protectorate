@@ -17,3 +17,19 @@ set_politics = {
 set_popularities = {
 	republicanism = 100
 }
+
+declare_war_on = {
+    target = COS
+    type = annex_everything
+}
+
+create_country_leader = {
+	name = "Juan José Arévalo"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+		
+	}
+}
