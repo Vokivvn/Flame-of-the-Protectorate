@@ -16,7 +16,13 @@ state={
 
 		}
 		add_core_of = LIT
-
+		
+		1936.1.1 = {
+			POL = {
+				set_province_controller = 9274
+				set_province_controller = 9295
+			}
+		}
 	}
 
 	provinces={

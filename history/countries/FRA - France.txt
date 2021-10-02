@@ -31,20 +31,10 @@ if = {
 		target = NZL
 		autonomous_state = autonomy_satellite
 	}
-	set_autonomy = {
-		target = VIE
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = LAO
-		autonomous_state = autonomy_satellite
-	}
 	else = {
 		puppet = CAT
 		puppet = FEA
 		puppet = FNA
-		puppet = VIE
-		puppet = LAO
 		puppet = NZL
 	}
 }

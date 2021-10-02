@@ -6,7 +6,8 @@ state={
 	}
 	
 	history={
-		owner = BUG
+		owner = SRW
+		add_core_of = SRW
 		add_core_of = BUG
 		buildings = {
 			infrastructure = 3

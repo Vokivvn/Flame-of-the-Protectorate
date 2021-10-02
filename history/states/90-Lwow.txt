@@ -24,6 +24,14 @@ state={
 			infrastructure = 6
 		}
 		add_core_of = POL
+		
+		1936.1.1 = {
+			LIT = {
+				set_province_controller = 3497
+				set_province_controller = 6416
+				set_province_controller = 11430
+			}
+		}
 	}
 
 	provinces={

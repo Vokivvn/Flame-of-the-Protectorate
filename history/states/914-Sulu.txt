@@ -6,7 +6,8 @@ state={
 	}
 	
 	history={
-		owner = SLU
+		owner = SRW
+		add_core_of = SRW
 		add_core_of = SLU
 		buildings = {
 			infrastructure = 4

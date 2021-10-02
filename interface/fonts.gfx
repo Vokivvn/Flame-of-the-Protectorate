@@ -19,6 +19,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "tahoma_60"
 		path = "gfx/fonts/Alata"
+		#path = "gfx/fonts/hoi_mapfont4"
 		color = 0xffffffff
 	
 		textcolors = {

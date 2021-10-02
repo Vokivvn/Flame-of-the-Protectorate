@@ -818,6 +818,12 @@ SLU = {
 	color = rgb { 138 145 137 }
 	color_ui = rgb { 138 145 137 }
 }
+
+SRW = {
+	color = rgb { 69 95 138 }
+	color_ui = rgb { 69 95 138 }
+}
+
 KTI = {
 	color = rgb { 184 156 172 }
 	color_ui = rgb { 184 156 172 }
