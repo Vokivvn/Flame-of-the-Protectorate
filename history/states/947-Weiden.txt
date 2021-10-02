@@ -4,7 +4,7 @@ state={
 	resources={
 	}
 	
-	state_category = town
+	state_category = large_city
 
 	history={
 		owner = AUS
