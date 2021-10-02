@@ -890,6 +890,11 @@ EES = { # Eastern Blocc
 	color_ui = rgb { 98 131 163 }
 }
 
+WLM = {
+	color = rgb { 81 111 145 }
+	color_ui = rgb { 50 80 115 }
+}
+
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
