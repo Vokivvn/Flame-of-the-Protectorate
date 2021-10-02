@@ -2,7 +2,7 @@ state={
 	id=961
 	name="STATE_961"
 	
-	state_category = large_city
+	state_category = town
 
 	history={
 		owner = TLE

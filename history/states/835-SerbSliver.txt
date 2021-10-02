@@ -4,7 +4,7 @@ state={
 	name="STATE_835" # serbsliver
 	manpower = 51600
 	
-	state_category = large_town
+	state_category = rural
 
 	history={
 		owner = SER

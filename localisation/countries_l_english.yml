@@ -166,25 +166,6 @@
  ARA_authoritarianism_ADJ:0 "Rakhine"
  ARA_ultranationalism_ADJ:0 "Rakhine"
  
- 
- #Argentina
- ARG_centralism:0 "United Provinces of La Plata"
- ARG_centralism_DEF:0 "The United Provinces of La Plata"
- ARG_socialism:0 "United Provinces of La Plata"
- ARG_socialism_DEF:0 "The United Provinces of La Plata"
- ARG_progressivism:0 "United Provinces of La Plata"
- ARG_progressivism_DEF:0 "The United Provinces of La Plata"
- ARG_liberalism:0 "United Provinces of La Plata"
- ARG_liberalism_DEF:0 "The United Provinces of La Plata"
- ARG_conservatism:0 "United Provinces of La Plata"
- ARG_conservatism_DEF:0 "The United Provinces of La Plata"
- ARG_republicanism:0 "United Provinces of La Plata"
- ARG_republicanism_DEF:0 "The United Provinces of La Plata"
- ARG_authoritarianism:0 "United Provinces of La Plata"
- ARG_authoritarianism_DEF:0 "The United Provinces of La Plata"
- ARG_ultranationalism:0 "United Provinces of La Plata"
- ARG_ultranationalism_DEF:0 "The United Provinces of La Plata"
- 
  ARG_centralism_ADJ:0 "Argentinean"
  ARG_socialism_ADJ:0 "Argentinean"
  ARG_progressivism_ADJ:0 "Argentinean"

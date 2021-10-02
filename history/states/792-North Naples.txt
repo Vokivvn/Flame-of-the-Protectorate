@@ -4,7 +4,7 @@ state={
 	name="STATE_792"
 	manpower = 2979335
 	
-	state_category = city
+	state_category = town
 
 	history={
 		owner = ITA

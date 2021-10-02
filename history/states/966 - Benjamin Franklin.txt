@@ -2,7 +2,7 @@ state={
 	id=966
 	name="STATE_966"
 
-	state_category = town
+	state_category = small_island
 
 	history={
 		owner = PCN
