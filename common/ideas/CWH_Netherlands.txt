@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+	
+		HOL_memories_of_32 = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		HOL_army_factionalism = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				drift_defence_factor = -0.25
+			}
+		}
+		
+		HOL_divided_resistance = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.05
+				trade_opinion_factor = 0.05
+			}
+		}
+	}
+}
