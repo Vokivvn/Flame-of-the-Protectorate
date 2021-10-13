@@ -6,8 +6,8 @@ state={
 	state_category = rural
 
 	history={
-		add_core_of = NSI
-		owner = NSI
+		add_core_of = DEN
+		owner = DEN
 		buildings = {
 			infrastructure = 10
 		}

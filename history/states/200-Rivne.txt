@@ -4,14 +4,14 @@ state={
 	name="STATE_200"
 
 	history={
-		owner = TAU
+		owner = SOV
 		
 		buildings = {
 			infrastructure = 5
 			air_base = 3
 
 		}
-		add_core_of = TAU
+		add_core_of = SOV
 
 	}
 
