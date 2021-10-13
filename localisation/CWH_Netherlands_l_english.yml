@@ -1,4 +1,32 @@
 ﻿l_english:
+
+ HOL_centralism_party:0 "CPN"
+ HOL_centralism_party_long:0 "Communistische Partij Nederland"
+ HOL_socialism_party:0 "SDAP"
+ HOL_socialism_party_long:0 "Sociaal-Democratische Arbeiderspartij"
+ HOL_progressivism_party:0 "VDB"
+ HOL_progressivism_party_long:0 "Vrijzinnig Democratische Bond"
+ HOL_liberalism_party:0 "LP"
+ HOL_liberalism_party_long:0 "Liberale Partij"
+ HOL_conservatism_party:0 "ARP"
+ HOL_conservatism_party_long:0 "Anti-Revolutionaire Partij"
+ HOL_republicanism_party:0 "NRB"
+ HOL_republicanism_party_long:0 "Nederlandsche Republikein Bond"
+ HOL_authoritarianism_party:0 "VNH"
+ HOL_authoritarianism_party_long:0 "Verbond voor Nationaal Herstel"
+ HOL_ultranationalism_party:0 "NNAP"
+ HOL_ultranationalism_party_long:0 "Nederlandsche Nationalistisch Arbeiderspartij"
+ 
+  ## Ideas ##
+ HOL_memories_of_32:0 "Memories of '32"
+ HOL_memories_of_32_desc:0 ""
+ 
+ HOL_army_factionalism:0 "Army Factionalism"
+ HOL_army_factionalism_desc:0 ""
+ 
+ HOL_divided_resistance:0 "Divided Resistance"
+ HOL_divided_resistance_desc:0 ""
+ 
  XXX_Influnce_Netherlands:0 "Low Lands Battleground"
  XXX_Influnce_Netherlands_desc:0 "[Root.FRI_Influence_Status][Root.GEL_Influence_Status][Root.BBT_Influence_Status][Root.ZEE_Influence_Status][Root.LIM_Influence_Status][Root.BEL_Influence_Status][Root.WAL_Influence_Status]"
  

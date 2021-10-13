@@ -13,7 +13,23 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	ultranationalism = 100
+	centralism = 4
+	socialism = 6
+	progressivism = 0 
+	liberalism = 11
+	conservatism = 5
+	republicanism = 0
+	authoritarianism = 0
+	ultranationalism = 74
+}
+
+add_ideas = {
+	HOL_memories_of_32
+	HOL_army_factionalism
+	HOL_divided_resistance
+	
+	# laws
+	mixed
 }
 
 set_convoys = 150
