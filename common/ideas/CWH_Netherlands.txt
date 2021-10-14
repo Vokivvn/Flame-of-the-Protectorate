@@ -11,7 +11,8 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.05
-				consumer_goods_factor = 0.1
+				war_support_factor = 0.15
+				ultranationalism_drift = 0.05
 			}
 		}
 		
@@ -24,8 +25,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				stability_factor = -0.05
-				drift_defence_factor = -0.25
+				stability_factor = -0.25
+				army_org_factor = -0.05
 			}
 		}
 		
@@ -38,8 +39,12 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_gain = 0.05
-				trade_opinion_factor = 0.05
+				political_power_gain = 0.25
+				stability_factor = 0.15
+				centralism_acceptance = -25
+				socialism_acceptance = -25
+				liberalism_acceptance = -25
+				conservatism_acceptance = -25
 			}
 		}
 	}
