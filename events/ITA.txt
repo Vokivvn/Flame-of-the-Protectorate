@@ -545,3 +545,77 @@ country_event = { # Tie over Italy (BorderW)
 		add_war_support = -0.075
 	}
 }
+
+country_event = { #ANI coup
+	id = ITA.29
+	title = ITA.29.t
+	desc = ITA.29.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.29.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_party_name = {
+			ideology = centralism
+			long_name = ITA_ANI_republicanism_party_long
+			name = ITA_ANI_republicanism_party
+		}
+		set_party_name = {
+			ideology = republicanism
+			long_name = ITA_ANI_republicanism_party_long
+			name = ITA_ANI_republicanism_party
+		}
+		set_party_name = {
+			ideology = authoritarianism
+			long_name = ITA_ANI_republicanism_party_long
+			name = ITA_ANI_republicanism_party
+		}
+		set_party_name = {
+			ideology = ultranationalism
+			long_name = ITA_ANI_republicanism_party_long
+			name = ITA_ANI_republicanism_party
+		}
+		create_country_leader = {
+			name = "Gabriele D'Annunzio"
+			desc = "POLITICS_Gabriele_DAnnunzio_DESC"
+			picture = "ITA_Gabriele_DAnnunzio.dds"
+			expire = "1965.1.1"
+			ideology = republicanism_subtype
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Edmondo Rossoni"
+			desc = "POLITICS_Edmondo_Rossoni_DESC"
+			picture = "ITA_Edmondo_Rossoni.dds"
+			expire = "1965.1.1"
+			ideology = social_nationalism
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Italo Balbo"
+			desc = "POLITICS_Italo_Balbo_DESC"
+			picture = "ITA_Italo_Balbo.dds"
+			expire = "1965.1.1"
+			ideology = authoritarianism_subtype
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Julius Evola"
+			desc = "POLITICS_Julius_Evola_DESC"
+			picture = "ITA_Julius_Evola.dds"
+			expire = "1965.1.1"
+			ideology = ultranationalism_subtype
+			traits = {
+				#
+			}
+		}

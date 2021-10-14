@@ -1,0 +1,27 @@
+shared_focus = { #placeholder
+	id =  JAP_takashis_resignation
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 9
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus JAP_takashis_resignation"
+	}
+}
+
+shared_focus = {
+	id = JAP_Cement_the_Baasskap
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 8
+	y = 1
+	relative_position_id = JAP_Cement_the_Baasskap
+	prerequisite = {
+		focus = JAP_takashis_resignation
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Cement_the_Baasskap"
+	}
+}

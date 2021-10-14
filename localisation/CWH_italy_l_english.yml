@@ -74,6 +74,9 @@
   ITA_authoritarianism_party_long:0 "Lista Nazionale"
   ITA_ultranationalism_party:0 "FAd'AR"
   ITA_ultranationalism_party_long:0 "Fasci Autonomi d'Azione Rivoluzionaria"
+  
+  ITA_ANI_republicanism_party:0 "ANI"
+  ITA_ANI_republicanism_party_long:0 "Associazione Nazionalista Italiana"
  
  ## Intro Focus
  ITA_the_heirs_of_mazzini:0 "The Heirs of Mazzini"
