@@ -1012,6 +1012,123 @@ country_event = { #More regions rise up
 	}
 }
 
+country_event = { #SFIO-N coup
+	id = FSR.3
+	title = FSR.3.t
+	desc = FSR.3.d
+	picture = GFX_report_event_communist_rise_up
+
+	is_triggered_only = yes
+	
+	option = {
+		name = FSR.3.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_party_name = {
+			ideology = centralism
+			long_name = FSR_neosocialist_centralism_party_long
+			name = FSR_neosocialist_centralism_party
+		}
+		create_country_leader = {
+			name = "Marcel Déat"
+			desc = "POLITICS_Marcel_Deat_DESC"
+			picture = "ITA_Marcel_Deat.dds"
+			expire = "1965.1.1"
+			ideology = social_nationalism
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+country_event = { #PCF-S coup
+	id = FSR.4
+	title = FSR.4.t
+	desc = FSR.4.d
+	picture = GFX_report_event_communist_rise_up
+
+	is_triggered_only = yes
+	
+	option = {
+		name = FSR.4.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_party_name = {
+			ideology = centralism
+			long_name = FSR_surrealist_centralism_party_long
+			name = FSR_surrealist_centralism_party
+		}
+		create_country_leader = {
+			name = "André Breton"
+			desc = "POLITICS_Andre_Breton_DESC"
+			picture = "Portrait_France_Andre_Breton.dds"
+			expire = "1965.1.1"
+			ideology = centralism_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+country_event = { #PCF coup
+	id = FSR.5
+	title = FSR.5.t
+	desc = FSR.5.d
+	picture = GFX_report_event_communist_rise_up
+
+	is_triggered_only = yes
+	
+	option = {
+		name = FSR.5.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_party_name = {
+			ideology = centralism
+			long_name = FSR_PCF_centralism_party_long
+			name = FSR_PCF_centralism_party
+		}
+		create_country_leader = {
+			name = "Jacques Doriot"
+			desc = "POLITICS_Jacques_Doriot_DESC"
+			picture = "Portrait_France_Jacques_Doriot.dds"
+			expire = "1965.1.1"
+			ideology = centralism_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+country_event = { #Leon Blum coup
+	id = FSR.6
+	title = FSR.6.t
+	desc = FSR.6.d
+	picture = GFX_report_event_communist_rise_up
+
+	is_triggered_only = yes
+	
+	option = {
+		name = FSR.6.a
+		set_politics = {
+			ruling_party = socialism
+		}
+		create_country_leader = {
+			name = "Léon Blum"
+			desc = "POLITICS_Leon_Blum_DESC"
+			picture = "Portrait_France_Leon_Blum.dds"
+			expire = "1965.1.1"
+			ideology = socialism_subtype
+			traits = {
+				#
+	}
+}
+
 add_namespace = FRA_CW
 
 country_event = { #  more regions rise, fuck commies!!!!

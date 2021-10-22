@@ -58,6 +58,13 @@
   FSR_ultranationalism_party:0 "PAPF"
   FSR_ultranationalism_party_long:0 "Parti agraire et paysan français"
   
+  FSR_neosocialist_centralism_party:0 "SFIO-N"
+  FSR_neosocialist_centralism_party_long:0 "Section française de l'Internationale ouvrière-néosocialistes"
+  FSR_surrealist_centralism_party:0 "PCF-S"
+  FSR_surrealist_centralism_party_long:0 "Parti communiste français-surréalistes"
+  FSR_PCF_centralism_party:0 "PCF"
+  FSR_PCF_centralism_party_long:0 "Parti communiste français"
+  
  ## tree
  FRA_the_catalan_crisis:0 "The Catalan Crisis"
  FRA_the_catalan_crisis_desc:0 ""
