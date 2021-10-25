@@ -77,6 +77,9 @@
   
   ITA_ANI_republicanism_party:0 "ANI"
   ITA_ANI_republicanism_party_long:0 "Associazione Nazionalista Italiana"
+  
+  ITA_futurist_republicanism_party:0 "PPF"
+  ITA_futurist_republicanism_party_long:0 "Partito Politico Futurista"
  
  ## Intro Focus
  ITA_the_heirs_of_mazzini:0 "The Heirs of Mazzini"

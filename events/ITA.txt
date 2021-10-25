@@ -619,3 +619,87 @@ country_event = { #ANI coup
 				#
 			}
 		}
+	}
+}
+
+country_event = { #PPF coup
+	id = ITA.30
+	title = ITA.30.t
+	desc = ITA.30.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.30.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_party_name = {
+			ideology = republicanism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		create_country_leader = {
+			name = "Filippo Tommaso Marinetti"
+			desc = "POLITICS_Filippo_Tommaso_Marinetti_DESC"
+			picture = "ITA_Filippo_Tommaso_Marinetti.dds"
+			expire = "1965.1.1"
+			ideology = republicanism_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+country_event = { #PPF bans all parties
+	id = ITA.31
+	title = ITA.31.t
+	desc = ITA.31.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.31.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_party_name = {
+			ideology = centralism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		set_party_name = {
+			ideology = socialism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		set_party_name = {
+			ideology = progressivism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		set_party_name = {
+			ideology = liberalism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		set_party_name = {
+			ideology = conservatism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		set_party_name = {
+			ideology = authoritarianism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+				set_party_name = {
+			ideology = ultranationalism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+	}
+}

@@ -1008,7 +1008,6 @@ country_event = { #More regions rise up
 				days = 9
 			}
 		}
-		}
 	}
 }
 
