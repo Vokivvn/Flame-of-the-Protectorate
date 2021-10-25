@@ -9,6 +9,8 @@ ideas = {
 
 			removal_cost = -1
 
+			picture = HOL_memories_of_32
+
 			modifier = {
 				stability_factor = -0.05
 				war_support_factor = 0.15
@@ -24,6 +26,8 @@ ideas = {
 
 			removal_cost = -1
 
+			picture = HOL_army_factionalism
+
 			modifier = {
 				stability_factor = -0.25
 				army_org_factor = -0.05
@@ -37,6 +41,8 @@ ideas = {
 			}
 
 			removal_cost = -1
+
+			picture = HOL_divided_resistance
 
 			modifier = {
 				political_power_gain = 0.25
