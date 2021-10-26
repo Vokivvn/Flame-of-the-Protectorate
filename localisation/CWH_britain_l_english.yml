@@ -175,18 +175,21 @@
   ENG_socialism_party_long:0 "British Socialist Party"
   ENG_socialist_party_new_long:0 "British Socialist Party" # https://en.wikipedia.org/wiki/British_Socialist_Party
   ENG_socialist_party_new:0 "BSP"
-  ENG_progressivism_party:0 "CWP (M)"
-  ENG_progressivism_party_long:0 "Common Wealth Party - Moderate"
+  ENG_progressivism_party:0 "CWP"
+  ENG_progressivism_party_long:0 "Common Wealth Party"
   ENG_liberalism_party:0 "LP"
   ENG_liberalism_party_long:0 "Liberal Party"
   ENG_conservatism_party:0 "CP"
   ENG_conservatism_party_long:0 "Conservative Party"
-  ENG_republicanism_party:0 "RP (M)"
-  ENG_republicanism_party_long:0 "Republican Party - Moderate"
+  ENG_republicanism_party:0 "RP"
+  ENG_republicanism_party_long:0 "Republican Party"
   ENG_authoritarianism_party:0 "PC"
   ENG_authoritarianism_party_long:0 "Populists of the Commonwealth"
   ENG_ultranationalism_party:0 "CF"
   ENG_ultranationalism_party_long:0 "Commonwealth of Fascists"
+  
+  ENG_social_credit_authoritarianism_party:0 "SCPC"
+  ENG_social_credit_authoritarianism_party:0 "Social Credit Party of the Commonwealth"
   
   ## Focuses ##
   

@@ -149,12 +149,10 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	socialism = 10
-	republicanism = 12
-	progressivism = 11
+	republicanism = 24
+	progressivism = 21
 	conservatism = 36
 	liberalism = 19
-	authoritarianism = 12
 }
 
 create_country_leader = {
