@@ -17,3 +17,29 @@ country_event = { # CLAIM
 		add_state_claim = 28
 	}
 }
+
+country_event = { # Ernst Thälmann coup
+	id = GER.12
+	title = GER.12.t
+	desc = GER.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+option = {
+		name = GER.12.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		create_country_leader = {
+			name = "Ernst Thälmann"
+			desc = "POLITICS_Ernst_Thalmann_DESC"
+			picture = "Portrait_Germany_Ernst_Thalmann.dds"
+			expire = "1965.1.1"
+			ideology = centralism_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
