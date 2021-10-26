@@ -11,7 +11,14 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	authoritarianism = 100
+	centralism = 6
+	socialism = 9
+	progressivism = 13 
+	liberalism = 12
+	conservatism = 19
+	republicanism = 5
+	authoritarianism = 32
+	ultranationalism = 4
 }
 
 set_convoys = 150
