@@ -85,13 +85,8 @@ if = {
 		target = LBA
 		autonomous_state = autonomy_satellite
 	}
-	set_autonomy = {
-		target = TUN
-		autonomous_state = autonomy_satellite
-	}
 	else = {
 		puppet = LBA
-		puppet = TUN
 	}
 }
 

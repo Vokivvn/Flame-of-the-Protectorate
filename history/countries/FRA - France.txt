@@ -21,21 +21,24 @@ if = {
 	}
 	set_autonomy = {
 		target = FEA
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_colonial_regime
 	}
 	set_autonomy = {
 		target = FNA
+		autonomous_state = autonomy_colonial_regime
+	}
+	set_autonomy = {
+		target = MAD
 		autonomous_state = autonomy_satellite
 	}
 	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_satellite
+		target = FEI
+		autonomous_state = autonomy_colonial_regime
 	}
 	else = {
 		puppet = CAT
 		puppet = FEA
 		puppet = FNA
-		puppet = NZL
 	}
 }
 
@@ -84,7 +87,6 @@ add_to_faction = LBR
 add_to_faction = BRM
 add_to_faction = KAC
 add_to_faction = SHA
-add_to_faction = NZL
 add_to_faction = FEA
 add_to_faction = FNA
 
